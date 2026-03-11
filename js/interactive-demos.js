@@ -288,18 +288,23 @@
       wpCtx.lineWidth = 1;
       for (let x = 0; x < wpW; x += 30) { wpCtx.beginPath(); wpCtx.moveTo(x, 0); wpCtx.lineTo(x, wpH); wpCtx.stroke(); }
 
-      const padL = 60, padR = 30, padT = 50, padB = 60;
+      var nameFontSize = Math.max(10, Math.min(wpW * 0.020, 14));
+      var labelFontSize = Math.max(9, Math.min(wpW * 0.016, 12));
+
+      var padL = Math.max(100, wpW * 0.14);
+      var padR = Math.max(90, wpW * 0.12);
+      var padT = 50, padB = 60;
       const chartW = wpW - padL - padR;
       const chartH = wpH - padT - padB;
       const barH = chartH / engines.length - 8;
       const maxMass = 160;
       const maxRPM = 20000;
 
-      wpCtx.font = `${Math.max(9, wpW * 0.016)}px 'JetBrains Mono', monospace`;
+      wpCtx.font = labelFontSize + "px 'JetBrains Mono', monospace";
       wpCtx.fillStyle = 'rgba(255,255,255,0.2)';
       wpCtx.textAlign = 'center';
-      wpCtx.fillText('MASS (kg) — lower is better', padL + chartW * 0.25, padT - 12);
-      wpCtx.fillText('MAX RPM — higher is better', padL + chartW * 0.75, padT - 12);
+      wpCtx.fillText('MASS (kg) \u2014 lower is better', padL + chartW * 0.25, padT - 12);
+      wpCtx.fillText('MAX RPM \u2014 higher is better', padL + chartW * 0.75, padT - 12);
 
       engines.forEach(function (eng, i) {
         const y = padT + i * (barH + 8);
@@ -314,15 +319,16 @@
         wpCtx.fillStyle = eng.color + (eng.highlight ? 'DD' : '66');
         wpCtx.fillRect(midX + 2, y, rpmW * pulse, barH * 0.7);
 
-        wpCtx.font = `${Math.max(10, wpW * 0.020)}px 'JetBrains Mono', monospace`;
+        wpCtx.font = nameFontSize + "px 'JetBrains Mono', monospace";
         wpCtx.fillStyle = eng.highlight ? eng.color : 'rgba(255,255,255,0.45)';
         wpCtx.textAlign = 'right';
-        wpCtx.fillText(eng.name, padL - 4, y + barH * 0.45);
+        wpCtx.fillText(eng.name, padL - 8, y + barH * 0.45);
 
-        wpCtx.font = `bold ${Math.max(9, wpW * 0.016)}px 'JetBrains Mono', monospace`;
+        wpCtx.font = "bold " + labelFontSize + "px 'JetBrains Mono', monospace";
         wpCtx.textAlign = 'left';
         wpCtx.fillStyle = eng.color;
-        wpCtx.fillText(eng.mass + ' kg', midX - massW - 4 < padL ? midX - massW + 4 : midX - massW - 40, y + barH * 0.45);
+        var massLabelX = midX - massW + 4;
+        wpCtx.fillText(eng.mass + ' kg', massLabelX, y + barH * 0.45);
         wpCtx.fillText(eng.rpm.toLocaleString() + ' rpm', midX + rpmW * pulse + 6, y + barH * 0.45);
 
         if (eng.highlight) {
@@ -341,10 +347,10 @@
       wpCtx.lineWidth = 1;
       wpCtx.stroke();
 
-      wpCtx.font = `bold ${Math.max(10, wpW * 0.020)}px 'JetBrains Mono', monospace`;
+      wpCtx.font = "bold " + Math.max(10, Math.min(wpW * 0.018, 14)) + "px 'JetBrains Mono', monospace";
       wpCtx.fillStyle = '#F5A623';
       wpCtx.textAlign = 'center';
-      wpCtx.fillText('RCPM: 16× lighter than conv. · 3× faster than F1', wpW / 2, wpH - 14);
+      wpCtx.fillText('RCPM: 16\u00d7 lighter than conv. \u00b7 3\u00d7 faster than F1', wpW / 2, wpH - 14);
 
       requestAnimationFrame(drawWPComp);
     }
