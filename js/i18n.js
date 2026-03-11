@@ -267,17 +267,13 @@ pl: {
   'hist.era3.body': 'Ford T, silniki lotnicze, czołgi — liczyła się <strong>moc na kilogram</strong>, nie sprawność energetyczna. Nafta była tak tania, że traktowano ją jak wodę. Inżynierowie świętowali, gdy silnik przekroczył 6 000 rpm. Nikt nie zauważył, że 60% energii ulatuje przez rurę wydechu.',
   'hist.era4.title': 'Ewolucja bez rewolucji',
   'hist.era4.body': 'Wtrysk bezpośredni, turbodoładowanie, VVT — <strong>każda dekada przynosiła korekty tej samej błędnej architektury</strong>. Sprawność wzrosła z 25% do 38%... na przestrzeni stu lat. Tymczasem fizyka ruchu posuwisto-zwrotnego czeka niezmieniona, jak mur, przez który żaden inżynier nie potrafił przejść.',
-  'hist.diesel': 'Rudolf Diesel marzył o silniku <strong>bez strat na chłodzenie komory pracy</strong> —
-          silniku, który wyciągnie z paliwa niemal całą energię.
-          Nie zdążył go zbudować.',
+  'hist.diesel': 'Rudolf Diesel marzył o silniku <strong>bez strat na chłodzenie komory pracy</strong> — silniku, który wyciągnie z paliwa niemal całą energię. Nie zdążył go zbudować.',
   'hist.dream': 'Jego marzenie czekało 130 lat.',
   'ht.from': 'Stara droga: mechanika najpierw',
   'ht.to': 'Nowa droga: termodynamika najpierw',
   'rs.label': '// Poszukiwanie optymalnego silnika',
   'rs.title': 'ZACZĘLIŚMY OD<br><span style="color:var(--neon);">TERMODYNAMIKI.</span><br>NIE OD KORBKI.',
-  'rs.intro': '<p>Poszukiwania optymalnego silnika zaczęliśmy od <strong>optymalizacji termodynamiki</strong>, z której wynikły wymagania i cele konstrukcyjne.</p>
-        <p>Zamierzamy spełnić marzenie <strong>Rudolfa Diesla</strong> o silniku bez strat na chłodzenie komory pracy.</p>
-        <p>Proponowana przez nas <strong>„złota" przemiana termodynamiczna</strong> wymagałaby:</p>',
+  'rs.intro': '<p>Poszukiwania optymalnego silnika zaczęliśmy od <strong>optymalizacji termodynamiki</strong>, z której wynikły wymagania i cele konstrukcyjne.</p> <p>Zamierzamy spełnić marzenie <strong>Rudolfa Diesla</strong> o silniku bez strat na chłodzenie komory pracy.</p> <p>Proponowana przez nas <strong>„złota" przemiana termodynamiczna</strong> wymagałaby:</p>',
   'rs.req1': 'obrotów / min',
   'rs.req2': 'sił bezwładności',
   'rs.req2sub': 'Ruch promieniowy cylindrów RCPM eliminuje siły bezwładności ruchu posuwisto-zwrotnego. Siła Coriolisa staje się użyteczna — pomaga w sprężaniu.',
@@ -319,8 +315,7 @@ pl: {
   'prob.card2.text': 'Ponad połowa energii chemicznej paliwa ucieka jako ciepło. Dekady downsizingu, turbo i VVT — inżynierowie osiągnęli sufit. Dalej już się nie da bez zmiany fundamentalnej architektury.',
   'prob.card3.title': 'Wankel Próbował',
   'prob.card3.text': 'Felix Wankel zlikwidował ruch posuwisto-zwrotny. Ale apex seals — trójkątne uszczelki wierzchołkowe — to chroniczna nieszczelność = spalanie oleju = ~25% sprawność. Mazda wciąż szuka rozwiązania.',
-  'prob.quote': '<strong>„Branża od dekad poprawia stare pomysły zamiast tworzyć nowe fundamenty."</strong><br>
-    — Zbigniew Sadlak, wynalazca RCPM, IBS Monachium',
+  'prob.quote': '<strong>„Branża od dekad poprawia stare pomysły zamiast tworzyć nowe fundamenty."</strong><br> — Zbigniew Sadlak, wynalazca RCPM, IBS Monachium',
   'tech.label': '// 02 · Technologia RCPM',
   'tech.arch1': 'Polski Silnik Optymalnie Cieplny oparty jest na opatentowanej rewolucyjnej architekturze <em>RCPM — Rotating Cylindrical Piston Machine</em>, czyli Rotacyjnej Maszynie z Tłokami Cylindrycznymi, która łączy zalety silnika tłokowego i rotacyjnego, eliminując ich największe wady.',
   'tech.arch2': 'Zamiast liniowego ruchu tłoków, konstrukcja opiera się na <em>przeciwruchu cylindrycznych tłoków poruszających się promieniowo</em> w obracającym się wirniku. Dzięki dwóm przesuniętym osiom obrotu oraz kinetycznemu wyważeniu komponentów, niemal całkowicie wyeliminowano <em>siły bezwładnościowe i efekt Coriolisa</em>, które od dekad ograniczały rozwój silników rotacyjnych.',
@@ -692,17 +687,13 @@ en: {
   'hist.era3.body': 'Model T, aircraft engines, tanks — <strong>power-to-weight</strong> was all that mattered, not energy efficiency. Oil was so cheap it was treated like water. Engineers celebrated when an engine exceeded 6,000 rpm. Nobody noticed that 60% of the energy escaped through the exhaust pipe.',
   'hist.era4.title': 'Evolution without revolution',
   'hist.era4.body': 'Direct injection, turbocharging, VVT — <strong>each decade brought tweaks to the same flawed architecture</strong>. Efficiency rose from 25% to 38%... over a hundred years. Meanwhile, the physics of reciprocating motion remains unchanged — like a wall no engineer has been able to break through.',
-  'hist.diesel': 'Rudolf Diesel dreamed of an engine <strong>with no cooling losses from the combustion chamber</strong> —
-          an engine that would extract nearly all the energy from fuel.
-          He never got to build it.',
+  'hist.diesel': 'Rudolf Diesel dreamed of an engine <strong>with no cooling losses from the combustion chamber</strong> — an engine that would extract nearly all the energy from fuel. He never got to build it.',
   'hist.dream': 'His dream waited 130 years.',
   'ht.from': 'Old path: mechanics first',
   'ht.to': 'New path: thermodynamics first',
   'rs.label': '// Searching for the optimal engine',
   'rs.title': 'WE STARTED WITH<br><span style="color:var(--neon);">THERMODYNAMICS.</span><br>NOT THE CRANK.',
-  'rs.intro': '<p>We began the search for the optimal engine with <strong>thermodynamic optimization</strong>, from which design requirements and goals emerged.</p>
-        <p>We intend to fulfill <strong>Rudolf Diesel\'s</strong> dream of an engine with no cooling losses from the combustion chamber.</p>
-        <p>Our proposed <strong>"golden" thermodynamic cycle</strong> would require:</p>',
+  'rs.intro': '<p>We began the search for the optimal engine with <strong>thermodynamic optimization</strong>, from which design requirements and goals emerged.</p> <p>We intend to fulfill <strong>Rudolf Diesel\'s</strong> dream of an engine with no cooling losses from the combustion chamber.</p> <p>Our proposed <strong>"golden" thermodynamic cycle</strong> would require:</p>',
   'rs.req1': 'revolutions / min',
   'rs.req2': 'inertial forces',
   'rs.req2sub': 'Radial motion of RCPM cylinders eliminates inertial forces of reciprocating motion. Coriolis force becomes useful — it aids compression.',
@@ -744,8 +735,7 @@ en: {
   'prob.card2.text': 'More than half of the fuel\'s chemical energy escapes as heat. Decades of downsizing, turbo and VVT — engineers hit the ceiling. No further progress is possible without changing the fundamental architecture.',
   'prob.card3.title': 'Wankel Tried',
   'prob.card3.text': 'Felix Wankel eliminated reciprocating motion. But apex seals — triangular tip seals — mean chronic leakage = oil burning = ~25% efficiency. Mazda is still searching for a solution.',
-  'prob.quote': '<strong>"The industry has been improving old ideas for decades instead of creating new foundations."</strong><br>
-    — Zbigniew Sadlak, RCPM inventor, IBS Munich',
+  'prob.quote': '<strong>"The industry has been improving old ideas for decades instead of creating new foundations."</strong><br> — Zbigniew Sadlak, RCPM inventor, IBS Munich',
   'tech.label': '// 02 · RCPM Technology',
   'tech.arch1': 'The Polish Optimally Thermal Engine is based on the patented revolutionary architecture <em>RCPM — Rotating Cylindrical Piston Machine</em>, which combines the advantages of piston and rotary engines, eliminating their greatest flaws.',
   'tech.arch2': 'Instead of linear piston motion, the design relies on <em>counter-movement of cylindrical pistons moving radially</em> in a rotating rotor. Thanks to two offset rotation axes and kinematic component balancing, <em>inertial forces and the Coriolis effect</em> — which limited rotary engine development for decades — are nearly completely eliminated.',
@@ -1117,17 +1107,13 @@ es: {
   'hist.era3.body': 'Ford T, motores de aviación, tanques — lo que importaba era la <strong>potencia por kilogramo</strong>, no la eficiencia energética. El petróleo era tan barato que se trataba como agua. Los ingenieros celebraban cuando un motor superaba 6.000 rpm. Nadie notó que el 60% de la energía se escapaba por el tubo de escape.',
   'hist.era4.title': 'Evolución sin revolución',
   'hist.era4.body': 'Inyección directa, turboalimentación, VVT — <strong>cada década trajo ajustes a la misma arquitectura defectuosa</strong>. La eficiencia subió del 25% al 38%... en cien años. Mientras tanto, la física del movimiento alternativo sigue sin cambios — como un muro que ningún ingeniero ha podido traspasar.',
-  'hist.diesel': 'Rudolf Diesel soñaba con un motor <strong>sin pérdidas de enfriamiento en la cámara de trabajo</strong> —
-          un motor que extrajera casi toda la energía del combustible.
-          No llegó a construirlo.',
+  'hist.diesel': 'Rudolf Diesel soñaba con un motor <strong>sin pérdidas de enfriamiento en la cámara de trabajo</strong> — un motor que extrajera casi toda la energía del combustible. No llegó a construirlo.',
   'hist.dream': 'Su sueño esperó 130 años.',
   'ht.from': 'Viejo camino: mecánica primero',
   'ht.to': 'Nuevo camino: termodinámica primero',
   'rs.label': '// En busca del motor óptimo',
   'rs.title': 'EMPEZAMOS POR<br><span style="color:var(--neon);">LA TERMODINÁMICA.</span><br>NO POR LA MANIVELA.',
-  'rs.intro': '<p>La búsqueda del motor óptimo comenzó con la <strong>optimización termodinámica</strong>, de la que surgieron los requisitos y objetivos de diseño.</p>
-        <p>Pretendemos cumplir el sueño de <strong>Rudolf Diesel</strong> de un motor sin pérdidas de enfriamiento en la cámara de trabajo.</p>
-        <p>Nuestro propuesto <strong>ciclo termodinámico "dorado"</strong> requeriría:</p>',
+  'rs.intro': '<p>La búsqueda del motor óptimo comenzó con la <strong>optimización termodinámica</strong>, de la que surgieron los requisitos y objetivos de diseño.</p> <p>Pretendemos cumplir el sueño de <strong>Rudolf Diesel</strong> de un motor sin pérdidas de enfriamiento en la cámara de trabajo.</p> <p>Nuestro propuesto <strong>ciclo termodinámico "dorado"</strong> requeriría:</p>',
   'rs.req1': 'revoluciones / min',
   'rs.req2': 'fuerzas de inercia',
   'rs.req2sub': 'El movimiento radial de los cilindros RCPM elimina las fuerzas de inercia del movimiento alternativo. La fuerza de Coriolis se vuelve útil — ayuda en la compresión.',
@@ -1169,8 +1155,7 @@ es: {
   'prob.card2.text': 'Más de la mitad de la energía química del combustible escapa como calor. Décadas de downsizing, turbo y VVT — los ingenieros alcanzaron el techo. No es posible avanzar más sin cambiar la arquitectura fundamental.',
   'prob.card3.title': 'Wankel Lo Intentó',
   'prob.card3.text': 'Felix Wankel eliminó el movimiento alternativo. Pero los apex seals — sellos triangulares de vértice — significan fugas crónicas = quema de aceite = ~25% eficiencia. Mazda aún busca solución.',
-  'prob.quote': '<strong>"La industria lleva décadas mejorando viejas ideas en lugar de crear nuevos fundamentos."</strong><br>
-    — Zbigniew Sadlak, inventor del RCPM, IBS Múnich',
+  'prob.quote': '<strong>"La industria lleva décadas mejorando viejas ideas en lugar de crear nuevos fundamentos."</strong><br> — Zbigniew Sadlak, inventor del RCPM, IBS Múnich',
   'tech.label': '// 02 · Tecnología RCPM',
   'tech.arch1': 'El Motor Polaco Térmicamente Óptimo se basa en la arquitectura revolucionaria patentada <em>RCPM — Rotating Cylindrical Piston Machine</em>, que combina las ventajas de los motores de pistón y rotativo, eliminando sus mayores defectos.',
   'tech.arch2': 'En lugar de movimiento lineal de pistones, el diseño se basa en el <em>contramovimiento de pistones cilíndricos moviéndose radialmente</em> en un rotor giratorio. Gracias a dos ejes de rotación desplazados y al equilibrio cinemático de componentes, las <em>fuerzas de inercia y el efecto Coriolis</em> — que limitaron el desarrollo de motores rotativos durante décadas — se eliminan casi por completo.',
@@ -1542,17 +1527,13 @@ de: {
   'hist.era3.body': 'Ford T, Flugmotoren, Panzer — es zählte <strong>Leistung pro Kilogramm</strong>, nicht Energieeffizienz. Öl war so billig, dass es wie Wasser behandelt wurde. Ingenieure feierten, wenn ein Motor 6.000 U/min überschritt. Niemand bemerkte, dass 60% der Energie durch das Auspuffrohr entwichen.',
   'hist.era4.title': 'Evolution ohne Revolution',
   'hist.era4.body': 'Direkteinspritzung, Turboaufladung, VVT — <strong>jedes Jahrzehnt brachte Korrekturen an derselben fehlerhaften Architektur</strong>. Der Wirkungsgrad stieg von 25% auf 38%... über hundert Jahre. Doch die Physik der Hubbewegung bleibt unverändert — wie eine Mauer, die kein Ingenieur durchbrechen konnte.',
-  'hist.diesel': 'Rudolf Diesel träumte von einem Motor <strong>ohne Kühlverluste der Arbeitskammer</strong> —
-          einem Motor, der nahezu die gesamte Energie aus dem Kraftstoff gewinnt.
-          Er konnte ihn nicht mehr bauen.',
+  'hist.diesel': 'Rudolf Diesel träumte von einem Motor <strong>ohne Kühlverluste der Arbeitskammer</strong> — einem Motor, der nahezu die gesamte Energie aus dem Kraftstoff gewinnt. Er konnte ihn nicht mehr bauen.',
   'hist.dream': 'Sein Traum wartete 130 Jahre.',
   'ht.from': 'Alter Weg: Mechanik zuerst',
   'ht.to': 'Neuer Weg: Thermodynamik zuerst',
   'rs.label': '// Auf der Suche nach dem optimalen Motor',
   'rs.title': 'WIR BEGANNEN MIT<br><span style="color:var(--neon);">THERMODYNAMIK.</span><br>NICHT MIT DER KURBEL.',
-  'rs.intro': '<p>Die Suche nach dem optimalen Motor begann mit der <strong>thermodynamischen Optimierung</strong>, aus der die Konstruktionsanforderungen und -ziele hervorgingen.</p>
-        <p>Wir wollen den Traum von <strong>Rudolf Diesel</strong> erfüllen — ein Motor ohne Kühlverluste der Arbeitskammer.</p>
-        <p>Unser vorgeschlagener <strong>„goldener" thermodynamischer Kreisprozess</strong> würde erfordern:</p>',
+  'rs.intro': '<p>Die Suche nach dem optimalen Motor begann mit der <strong>thermodynamischen Optimierung</strong>, aus der die Konstruktionsanforderungen und -ziele hervorgingen.</p> <p>Wir wollen den Traum von <strong>Rudolf Diesel</strong> erfüllen — ein Motor ohne Kühlverluste der Arbeitskammer.</p> <p>Unser vorgeschlagener <strong>„goldener" thermodynamischer Kreisprozess</strong> würde erfordern:</p>',
   'rs.req1': 'Umdrehungen / min',
   'rs.req2': 'Trägheitskräfte',
   'rs.req2sub': 'Die Radialbewegung der RCPM-Zylinder eliminiert die Trägheitskräfte der Hubbewegung. Die Corioliskraft wird nützlich — sie unterstützt die Verdichtung.',
@@ -1594,8 +1575,7 @@ de: {
   'prob.card2.text': 'Mehr als die Hälfte der chemischen Energie des Kraftstoffs entweicht als Wärme. Jahrzehnte von Downsizing, Turbo und VVT — Ingenieure haben die Grenze erreicht. Ohne Änderung der grundlegenden Architektur geht es nicht weiter.',
   'prob.card3.title': 'Wankel Versuchte Es',
   'prob.card3.text': 'Felix Wankel eliminierte die Hubbewegung. Aber Apex-Dichtungen — dreieckige Spitzendichtungen — bedeuten chronische Undichtigkeit = Ölverbrennung = ~25% Wirkungsgrad. Mazda sucht noch immer nach einer Lösung.',
-  'prob.quote': '<strong>„Die Branche verbessert seit Jahrzehnten alte Ideen, statt neue Fundamente zu schaffen."</strong><br>
-    — Zbigniew Sadlak, RCPM-Erfinder, IBS München',
+  'prob.quote': '<strong>„Die Branche verbessert seit Jahrzehnten alte Ideen, statt neue Fundamente zu schaffen."</strong><br> — Zbigniew Sadlak, RCPM-Erfinder, IBS München',
   'tech.label': '// 02 · RCPM-Technologie',
   'tech.arch1': 'Der Polnische Thermisch Optimale Motor basiert auf der patentierten revolutionären Architektur <em>RCPM — Rotating Cylindrical Piston Machine</em>, die die Vorteile von Kolben- und Rotationsmotoren vereint und deren größte Schwächen eliminiert.',
   'tech.arch2': 'Anstelle der linearen Kolbenbewegung basiert die Konstruktion auf der <em>Gegenbewegung zylindrischer Kolben, die sich radial bewegen</em> in einem rotierenden Rotor. Dank zweier versetzter Drehachsen und kinematischer Komponentenauswuchtung werden <em>Trägheitskräfte und der Coriolis-Effekt</em> — die die Entwicklung von Rotationsmotoren jahrzehntelang begrenzten — nahezu vollständig eliminiert.',
