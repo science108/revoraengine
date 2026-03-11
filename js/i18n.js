@@ -20,6 +20,7 @@ pl: {
   'gw.cta':     'POZNAJ ODPOWIEDŹ',
   'gw.patent':  'Patent PL · DE · KR · IN',
   'gw.prot':    'Ochrona do 2045',
+  'gw.hint':    '// Revora Engine™ · Modularna Platforma Spalinowa',
 
   /* hero */
   'hero.h1.1':     'CLEAN',
@@ -440,6 +441,7 @@ en: {
   'gw.cta':   'DISCOVER THE ANSWER',
   'gw.patent':'Patent PL · DE · KR · IN',
   'gw.prot':  'Protection until 2045',
+  'gw.hint':  '// Revora Engine™ · Modular Combustion Platform',
 
   /* hero */
   'hero.h1.1':     'CLEAN',
@@ -860,6 +862,7 @@ es: {
   'gw.cta':   'DESCUBRE LA RESPUESTA',
   'gw.patent':'Patente PL · DE · KR · IN',
   'gw.prot':  'Protección hasta 2045',
+  'gw.hint':  '// Revora Engine™ · Plataforma de Combustión Modular',
 
   /* hero */
   'hero.h1.1':     'LIMPIO',
@@ -1280,6 +1283,7 @@ de: {
   'gw.cta':   'ENTDECKEN SIE DIE ANTWORT',
   'gw.patent':'Patent PL · DE · KR · IN',
   'gw.prot':  'Schutz bis 2045',
+  'gw.hint':  '// Revora Engine™ · Modulare Verbrennungsplattform',
 
   /* hero */
   'hero.h1.1':     'SAUBERE',
@@ -1684,7 +1688,7 @@ de: {
 };
 
 /* ── Current language ── */
-let currentLang = localStorage.getItem('revora_lang') || 'pl';
+let currentLang = localStorage.getItem('revora_lang') || 'en';
 
 /* ── Apply translations ── */
 function applyLang(lang) {
