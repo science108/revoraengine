@@ -515,6 +515,52 @@ section{padding:120px 64px;}
 .flow-name{font-family:'Bebas Neue',sans-serif;font-size:30px;letter-spacing:1px;color:#fff;margin-bottom:10px;}
 .flow-sub{font-size:12px;color:var(--muted);line-height:1.6;}
 
+/* ── MORE MARKETS GRID ── */
+.app-markets-wrap{
+  max-width:1100px;margin:64px auto 0;padding:0 24px;text-align:center;
+}
+.app-markets-wrap .s-label{display:block;margin-bottom:32px;}
+.app-grid{
+  display:flex;flex-wrap:wrap;justify-content:center;gap:14px;
+  max-width:920px;margin:0 auto;
+}
+.app-card{
+  width:155px;padding:22px 14px 18px;
+  background:#04040C;border:1px solid rgba(0,212,255,0.08);border-radius:6px;
+  display:flex;flex-direction:column;align-items:center;gap:8px;
+  transition:border-color .3s,transform .3s;cursor:default;
+}
+.app-card:hover{border-color:rgba(0,212,255,0.35);transform:translateY(-3px);}
+.app-icon{width:44px;height:44px;flex-shrink:0;}
+.app-card-name{
+  font-family:'JetBrains Mono',monospace;font-size:11px;
+  color:rgba(255,255,255,0.7);letter-spacing:0.5px;text-align:center;line-height:1.3;
+}
+.app-card-tam{
+  font-family:'Bebas Neue',sans-serif;font-size:20px;
+  color:#F5A623;letter-spacing:1px;
+}
+
+/* ── TAM TOTAL ── */
+.tam-total{
+  margin-top:48px;padding:40px 24px;text-align:center;
+  border-top:1px solid rgba(0,212,255,0.06);
+}
+.tam-total-label{
+  display:block;font-family:'JetBrains Mono',monospace;font-size:10px;
+  letter-spacing:3px;color:rgba(0,212,255,0.35);text-transform:uppercase;margin-bottom:12px;
+}
+.tam-total-value{
+  font-family:'Bebas Neue',sans-serif;font-size:72px;letter-spacing:3px;
+  color:#F5A623;line-height:1;
+  text-shadow:0 0 40px rgba(245,166,35,0.25),0 0 80px rgba(245,166,35,0.1);
+}
+.tam-total-sub{
+  display:block;margin-top:10px;
+  font-family:'JetBrains Mono',monospace;font-size:11px;
+  color:var(--muted);letter-spacing:0.5px;
+}
+
 /* ── RYNEK ── */
 #rynek{background:var(--bg);border-top:1px solid var(--border);}
 
@@ -797,6 +843,11 @@ footer{background:#020208;border-top:1px solid var(--border);padding:36px 64px;d
 
   /* FLOW */
   .flow-item{width:190px;padding:22px 18px;}
+  .app-card{width:130px;padding:18px 10px;}
+  .app-icon{width:36px;height:36px;}
+  .app-card-name{font-size:10px;}
+  .app-card-tam{font-size:17px;}
+  .tam-total-value{font-size:52px;}
 
   /* MARKET */
   .mkt-card{padding:36px 24px;}
