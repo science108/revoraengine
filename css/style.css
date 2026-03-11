@@ -1272,6 +1272,27 @@ body { overflow-x: hidden; max-width: 100vw; }
 
 /* ══ BLOCK SEPARATOR ══ */
 
+/* ── GATEWAY LANGUAGE SWITCHER ── */
+#gwLangSwitcher {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#gwLangSwitcher .lang-btn {
+  font-size: 20px;
+  padding: 6px 10px;
+  border-color: rgba(0,212,255,0.2);
+  background: rgba(0,10,20,0.5);
+  backdrop-filter: blur(8px);
+}
+#gwLangSwitcher .lang-btn:hover {
+  border-color: rgba(0,212,255,0.5);
+  background: rgba(0,212,255,0.1);
+}
 
 .lang-btn {
   background: none;
@@ -1289,6 +1310,8 @@ body { overflow-x: hidden; max-width: 100vw; }
 @media(max-width:600px) {
   #langSwitcher { margin-right: 8px; }
   .lang-btn { font-size: 14px; padding: 3px 5px; }
+  #gwLangSwitcher { top: 14px; right: 14px; gap: 4px; }
+  #gwLangSwitcher .lang-btn { font-size: 16px; padding: 4px 7px; }
 }
 
 
