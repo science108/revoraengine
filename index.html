@@ -98,7 +98,7 @@
   backdrop-filter:blur(12px);
 ">
   <span style="width:6px;height:6px;border-radius:50%;background:#00D4FF;display:inline-block;animation:blink 2s infinite;flex-shrink:0;"></span>
-  <span style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;color:#00D4FF;text-transform:uppercase;">Patent Pending &nbsp;·&nbsp; Ochrona do 2045 &nbsp;·&nbsp; PL · DE · KR · IN</span>
+  <span style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;color:#00D4FF;text-transform:uppercase;" data-i18n="gw.status">Patent Pending &nbsp;·&nbsp; Ochrona do 2045 &nbsp;·&nbsp; PL · DE · KR · IN</span>
   <span style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:2px;color:rgba(0,212,255,0.4);">RCPM · AKS · PS CORE</span>
 </div>
 
@@ -228,7 +228,7 @@
           <div class="vcb-mini-sep"></div>
           <div class="vcb-mini-item">
             <span class="vcb-mini-val" style="color:var(--neon);">1,4B</span>
-            <span class="vcb-mini-unit">pojazdów</span>
+            <span class="vcb-mini-unit" data-i18n="vision.vehicles">pojazdów</span>
             <span class="vcb-mini-desc" data-i18n="vision.retrodesc">istniejących silników możliwych do retrofittingu przez AKS</span>
           </div>
           <div class="vcb-mini-sep"></div>
@@ -387,8 +387,8 @@
     <div class="sh-year-badge">
       <span class="sh-year-num">1918</span>
       <div class="sh-year-meta">
-        <span>Siemens &amp; Halske · Berlin</span>
-        <span>Silnik SH.IIIa — obracający się blok cylindrów</span>
+        <span data-i18n="sh.shLabel">Siemens &amp; Halske · Berlin</span>
+        <span data-i18n="sh.shDesc">Silnik SH.IIIa — obracający się blok cylindrów</span>
       </div>
     </div>
 
@@ -397,7 +397,7 @@
     <p class="sh-sub" style="margin-top:14px;" data-i18n="sh.sub2"><strong>Budowali słonia.</strong> Ogromny, silny — ale powolny i żarłoczny. Im większa masa wirująca, tym silniejsze siły bezwładności i siła Coriolisa rozrywające komponenty od środka. Im większe siły — tym większe tarcie wewnętrzne. Im większe tarcie — tym więcej oleju. <strong>SH.IIIa pił więcej smaru niż paliwa.</strong> Moc szła na walkę z własną konstrukcją, nie na napęd.</p>
     <p class="sh-sub" style="margin-top:14px;" data-i18n="sh.sub3"><strong>My budujemy kolibra.</strong> Małe masy, duże obroty. Koliber waży kilka gramów i uderza skrzydłami 80 razy na sekundę — nie siłą, lecz precyzją i rytmem. RCPM waży 8 kg i kręci 19&nbsp;100 RPM. Mikrowtryski paliwa w dokładnie właściwych fazach obrotu podtrzymują rotację jak impulsy elektryczne podtrzymują bicie serca.</p>
     <p class="sh-sub" style="margin-top:14px;" data-i18n="sh.sub4">Ale nie zatrzymaliśmy się na miniaturyzacji. Wyszliśmy od głębszego pytania: <strong>jaka jest złota przemiana termodynamiczna optymalnego silnika cieplnego?</strong> Z odpowiedzi na to pytanie — z zasad termodynamiki, nie z prób i błędów — wynikła architektura RCPM. Siłę Coriolisa zaadresowaliśmy bezpośrednio na poziomie konstrukcji. Jest przedmiotem naszych zgłoszeń patentowych.</p>
-    <p class="sh-sub" style="margin-top:18px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;color:#00D4FF;">// EFEKT: 8 KG · 19 100 RPM · SPRAWNOŚĆ &gt;60%</p>
+    <p class="sh-sub" style="margin-top:18px;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:2px;color:#00D4FF;" data-i18n="sh.effect">// EFEKT: 8 KG · 19 100 RPM · SPRAWNOŚĆ &gt;60%</p>
 
     <!-- CANVAS COMPARISON -->
     <div class="sh-canvas-grid">
@@ -405,8 +405,8 @@
       <!-- LEFT — SH 1918 -->
       <div class="sh-canvas-card sh-left">
         <div class="sh-canvas-header">
-          <span class="sh-ctitle">Siemens Halske SH.IIIa</span>
-          <span class="sh-ctag">1918 · PORZUCONY</span>
+          <span class="sh-ctitle" data-i18n="sh.shTitle">Siemens Halske SH.IIIa</span>
+          <span class="sh-ctag" data-i18n="sh.shYear">1918 · PORZUCONY</span>
         </div>
         <div class="sh-canvas-wrap">
           <canvas id="shCanvas" width="480" height="280"></canvas>
@@ -418,7 +418,7 @@
       <div class="sh-canvas-card sh-right">
         <div class="sh-canvas-header">
           <span class="sh-ctitle">RCPM · PowerBee</span>
-          <span class="sh-ctag">2025 · PATENT PENDING</span>
+          <span class="sh-ctag" data-i18n="sh.rcpmYear">2025 · PATENT PENDING</span>
         </div>
         <div class="sh-canvas-wrap">
           <canvas id="shRcpmCanvas" width="480" height="280"></canvas>
@@ -429,7 +429,7 @@
     </div>
 
     <!-- FLIP CARDS — 3 bariery -->
-    <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:rgba(255,255,255,0.2);text-transform:uppercase;margin-bottom:14px;">// Trzy bariery 1918 → hover aby zobaczyć rozwiązanie 2025</div>
+    <div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:3px;color:rgba(255,255,255,0.2);text-transform:uppercase;margin-bottom:14px;" data-i18n="sh.barrierHint">// Trzy bariery 1918 → hover aby zobaczyć rozwiązanie 2025</div>
     <div class="sh-barriers">
 
       <div class="sh-flip">
@@ -437,18 +437,18 @@
           <div class="sh-face sh-face-front">
             <div>
               <div class="sh-face-icon">⚠</div>
-              <div class="sh-face-year">// BARIERA · 1918</div>
+              <div class="sh-face-year" data-i18n="sh.bar1.label">// BARIERA · 1918</div>
               <div class="sh-face-title" data-i18n="sh.b1.front.title">MASA I TARCIE</div>
             </div>
-            <div class="sh-face-text">Im większy obracający się blok, tym większa masa wirująca. Im większa masa — tym silniejsze siły bezwładności i większe tarcie wewnętrzne. SH.IIIa potrzebował więcej oleju niż paliwa. Moc szła na smarowanie, nie na napęd.</div>
+            <div class="sh-face-text" data-i18n="sh.bar1.desc">Im większy obracający się blok, tym większa masa wirująca. Im większa masa — tym silniejsze siły bezwładności i większe tarcie wewnętrzne. SH.IIIa potrzebował więcej oleju niż paliwa. Moc szła na smarowanie, nie na napęd.</div>
           </div>
           <div class="sh-face sh-face-back">
             <div>
               <div class="sh-face-icon">✓</div>
-              <div class="sh-face-year">// ROZWIĄZANIE · 2025</div>
+              <div class="sh-face-year" data-i18n="sh.sol1.label">// ROZWIĄZANIE · 2025</div>
               <div class="sh-face-title" data-i18n="sh.b1.back.title">MAŁA MASA = DUŻE RPM</div>
             </div>
-            <div class="sh-face-text">P = M × ω. Zamiast zwiększać moment przez masę — zwiększamy prędkość kątową przez miniaturyzację. RCPM waży 8 kg. Mała masa wirująca = małe siły = sufit RPM znika. 19 100 obrotów bez destrukcji.</div>
+            <div class="sh-face-text" data-i18n="sh.sol1.desc">P = M × ω. Zamiast zwiększać moment przez masę — zwiększamy prędkość kątową przez miniaturyzację. RCPM waży 8 kg. Mała masa wirująca = małe siły = sufit RPM znika. 19 100 obrotów bez destrukcji.</div>
           </div>
         </div>
       </div>
@@ -458,18 +458,18 @@
           <div class="sh-face sh-face-front">
             <div>
               <div class="sh-face-icon">⚠</div>
-              <div class="sh-face-year">// BARIERA · 1918</div>
+              <div class="sh-face-year" data-i18n="sh.bar1.label">// BARIERA · 1918</div>
               <div class="sh-face-title" data-i18n="sh.b2.front.title">SIŁA CORIOLISA</div>
             </div>
-            <div class="sh-face-text">W obracającym się bloku każdy ruchomy element odczuwa siłę Coriolisa — siłę poprzeczną niszczącą uszczelnienia i łożyska. Im więcej masy, tym silniejsza. W 1918 roku nie wiedziano jak jej przeciwdziałać. Silnik walczył sam ze sobą.</div>
+            <div class="sh-face-text" data-i18n="sh.bar2.desc">W obracającym się bloku każdy ruchomy element odczuwa siłę Coriolisa — siłę poprzeczną niszczącą uszczelnienia i łożyska. Im więcej masy, tym silniejsza. W 1918 roku nie wiedziano jak jej przeciwdziałać. Silnik walczył sam ze sobą.</div>
           </div>
           <div class="sh-face sh-face-back">
             <div>
               <div class="sh-face-icon">✓</div>
-              <div class="sh-face-year">// ROZWIĄZANIE · 2025</div>
+              <div class="sh-face-year" data-i18n="sh.sol1.label">// ROZWIĄZANIE · 2025</div>
               <div class="sh-face-title" data-i18n="sh.b2.back.title">CORIOLIS ZAADRESOWANY</div>
             </div>
-            <div class="sh-face-text">RCPM adresuje siłę Coriolisa na poziomie architektury — kinematyczne wyważenie układu eliminuje jej działanie. Rozwiązanie jest przedmiotem zgłoszeń patentowych. Fizyka jest elementem projektu, nie jego wrogiem.</div>
+            <div class="sh-face-text" data-i18n="sh.sol2.desc">RCPM adresuje siłę Coriolisa na poziomie architektury — kinematyczne wyważenie układu eliminuje jej działanie. Rozwiązanie jest przedmiotem zgłoszeń patentowych. Fizyka jest elementem projektu, nie jego wrogiem.</div>
           </div>
         </div>
       </div>
@@ -479,18 +479,18 @@
           <div class="sh-face sh-face-front">
             <div>
               <div class="sh-face-icon">⚠</div>
-              <div class="sh-face-year">// BARIERA · 1918</div>
+              <div class="sh-face-year" data-i18n="sh.bar1.label">// BARIERA · 1918</div>
               <div class="sh-face-title" data-i18n="sh.b3.front.title">ZŁY CEL</div>
             </div>
-            <div class="sh-face-text">SH gonił za mocą przez rozmiar — nie pytał o sprawność ani o fizykę ciepła. Większy silnik, więcej cylindrów, wyższe ciśnienia. Termodynamika nie była celem. Efekt: silnik żarł olej, grzał się i rozpadał.</div>
+            <div class="sh-face-text" data-i18n="sh.bar3.desc">SH gonił za mocą przez rozmiar — nie pytał o sprawność ani o fizykę ciepła. Większy silnik, więcej cylindrów, wyższe ciśnienia. Termodynamika nie była celem. Efekt: silnik żarł olej, grzał się i rozpadał.</div>
           </div>
           <div class="sh-face sh-face-back">
             <div>
               <div class="sh-face-icon">✓</div>
-              <div class="sh-face-year">// ROZWIĄZANIE · 2025</div>
+              <div class="sh-face-year" data-i18n="sh.sol1.label">// ROZWIĄZANIE · 2025</div>
               <div class="sh-face-title" data-i18n="sh.b3.back.title">ZŁOTA PRZEMIANA CIEPLNA</div>
             </div>
-            <div class="sh-face-text">RCPM projektowany od zasad termodynamiki. Szukamy optymalnego punktu pracy silnika cieplnego — złotej przemiany cieplnej. Z tych założeń wynikła architektura. Sprawność &gt;60% to wynik zasad, nie poprawek.</div>
+            <div class="sh-face-text" data-i18n="sh.sol3.desc">RCPM projektowany od zasad termodynamiki. Szukamy optymalnego punktu pracy silnika cieplnego — złotej przemiany cieplnej. Z tych założeń wynikła architektura. Sprawność &gt;60% to wynik zasad, nie poprawek.</div>
           </div>
         </div>
       </div>
@@ -520,7 +520,7 @@
         <div class="sh-tech-node past">
           <div class="sh-tech-dot"></div>
           <div class="sh-tech-year">1990s</div>
-          <div class="sh-tech-name">CAD/CAM<br>Cyfrowe projekty</div>
+          <div class="sh-tech-name">CAD/CAM<br data-i18n="sh.tl.digit">Cyfrowe projekty</div>
         </div>
         <div class="sh-tech-node past">
           <div class="sh-tech-dot"></div>
@@ -530,7 +530,7 @@
         <div class="sh-tech-node past">
           <div class="sh-tech-dot"></div>
           <div class="sh-tech-year">2016</div>
-          <div class="sh-tech-name">Nano&shy;materiały<br>Masowe</div>
+          <div class="sh-tech-name" data-i18n="sh.tl.nano">Nano&shy;materiały<br>Masowe</div>
         </div>
         <div class="sh-tech-node now">
           <div class="sh-tech-dot"></div>
@@ -578,7 +578,7 @@
       <div class="pb-col pb-col-before">
         <span class="pb-badge pb-badge-before">
           <span class="pb-badge-dot pb-badge-dot-red"></span>
-          PROBLEM 1 — 120 LAT BEZ ZMIAN
+          <span data-i18n="pb.prob1.label">PROBLEM 1 — 120 LAT BEZ ZMIAN</span>
         </span>
 
         <h3 class="pb-col-title" data-i18n="pb.before1.title">RUCH GÓRA-DÓŁ</h3>
@@ -598,7 +598,7 @@
               <span>500</span><span>3 000</span><span>6 500 ⚠</span><span>9 000</span>
             </div>
             <div class="rpm-force-bar-wrap">
-              <div class="rpm-force-label">SIŁA BEZWŁADNOŚCI</div>
+              <div class="rpm-force-label" data-i18n="pb.inertia">SIŁA BEZWŁADNOŚCI</div>
               <div class="rpm-force-track">
                 <div class="rpm-force-fill rpm-force-bad" id="pistonForceBar2" style="width:1%"></div>
               </div>
@@ -636,7 +636,7 @@
       <div class="pb-col pb-col-after">
         <span class="pb-badge pb-badge-after">
           <span class="pb-badge-dot pb-badge-dot-cyan"></span>
-          ROZWIĄZANIE — RCPM
+          <span data-i18n="pb.solution1.label">ROZWIĄZANIE — RCPM</span>
         </span>
 
         <h3 class="pb-col-title" data-i18n="pb.after1.title">RUCH PROMIENIOWY</h3>
@@ -656,7 +656,7 @@
               <span>500</span><span>6 500</span><span>11 500</span><span>19 100+</span>
             </div>
             <div class="rpm-force-bar-wrap">
-              <div class="rpm-force-label">SIŁY ZNIESIONE / SWOBODA OBROTÓW</div>
+              <div class="rpm-force-label" data-i18n="pb.forcesCancelled">SIŁY ZNIESIONE / SWOBODA OBROTÓW</div>
               <div class="rpm-force-track">
                 <div class="rpm-force-fill rpm-force-good" id="rcpmFreeBar" style="width:1%"></div>
               </div>
@@ -699,7 +699,7 @@
       <div class="pb-col pb-col-before">
         <span class="pb-badge pb-badge-before">
           <span class="pb-badge-dot pb-badge-dot-red"></span>
-          PROBLEM 2 — PARADOKS CIEPLNY
+          <span data-i18n="pb.prob2.label">PROBLEM 2 — PARADOKS CIEPLNY</span>
         </span>
         <h3 class="pb-col-title" data-i18n="pb.before2.title">GRZEJ I CHŁODŹ NARAZ</h3>
         <p class="pb-col-sub" data-i18n="pb.before2.sub">Konwencjonalna komora spalania</p>
@@ -714,7 +714,7 @@
               <span class="heat-wave" style="left:40%;animation-delay:.3s;">🔥</span>
               <span class="heat-wave" style="left:60%;animation-delay:.6s;">🔥</span>
               <span class="heat-wave" style="left:75%;animation-delay:.15s;">🔥</span>
-              <div style="position:absolute;bottom:8px;font-family:'JetBrains Mono',monospace;font-size:7px;color:rgba(255,80,80,.5);letter-spacing:1px;">ciepło ucieka przez ściany</div>
+              <div style="position:absolute;bottom:8px;font-family:'JetBrains Mono',monospace;font-size:7px;color:rgba(255,80,80,.5);letter-spacing:1px;" data-i18n="pb.heatEscapes">ciepło ucieka przez ściany</div>
             </div>
             <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:rgba(255,80,80,.7);text-align:center;line-height:1.6;">
               <div style="font-size:22px;color:#FF3030;">~60%</div>
@@ -744,7 +744,7 @@
       <div class="pb-col pb-col-after">
         <span class="pb-badge pb-badge-after">
           <span class="pb-badge-dot pb-badge-dot-cyan"></span>
-          ROZWIĄZANIE — AKS
+          <span data-i18n="pb.solution2.label">ROZWIĄZANIE — AKS</span>
         </span>
         <h3 class="pb-col-title" data-i18n="pb.after2.title">BUFOROWANIE CIEPŁA</h3>
         <p class="pb-col-sub" data-i18n="pb.after2.sub">Aktywna Komora Spalania (Active Combustion System)</p>
@@ -760,7 +760,7 @@
           </div>
           <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--neon);text-align:center;line-height:1.6;">
             <div style="font-size:22px;color:var(--neon);">&gt;60%</div>
-            <div style="letter-spacing:1px;">sprawność<br>CIEPLNA</div>
+            <div style="letter-spacing:1px;" data-i18n="pb.efficiency">sprawność<br>CIEPLNA</div>
           </div>
         </div>
 
@@ -866,8 +866,8 @@
   <div class="hist-wrap">
 
     <div class="hist-header">
-      <span class="s-label" style="color:var(--gold);">// Geneza błędu</span>
-      <h2 class="hist-title">PALIWO BYŁO TANIE.<br><span style="color:var(--gold);">SPRAWNOŚĆ NIKOMU</span><br>NIE BYŁA POTRZEBNA.</h2>
+      <span class="s-label" style="color:var(--gold);" data-i18n="hist.label">// Geneza błędu</span>
+      <h2 class="hist-title" data-i18n="hist.title">PALIWO BYŁO TANIE.<br><span style="color:var(--gold);">SPRAWNOŚĆ NIKOMU</span><br>NIE BYŁA POTRZEBNA.</h2>
     </div>
 
     <!-- Timeline chapters -->
@@ -876,32 +876,32 @@
       <div class="htl-chapter">
         <div class="htl-year">1760–1850</div>
         <div class="htl-content">
-          <h4>Kopalnie i węgiel</h4>
-          <p>Rewolucja przemysłowa potrzebowała jednego: <strong>zastąpić konie w kopalniach</strong>. Watt, Newcomen, Trevithick — cały wysiłek szedł w <em>moc mechaniczną</em>, nie wydajność. Węgiel był tani, niemal bez wartości. Nikt nie liczył strat cieplnych.</p>
+          <h4 data-i18n="hist.era1.title">Kopalnie i węgiel</h4>
+          <p data-i18n="hist.era1.body">Rewolucja przemysłowa potrzebowała jednego: <strong>zastąpić konie w kopalniach</strong>. Watt, Newcomen, Trevithick — cały wysiłek szedł w <em>moc mechaniczną</em>, nie wydajność. Węgiel był tani, niemal bez wartości. Nikt nie liczył strat cieplnych.</p>
         </div>
       </div>
 
       <div class="htl-chapter">
         <div class="htl-year">1876–1900</div>
         <div class="htl-content">
-          <h4>Otto, korbowód, cylinder</h4>
-          <p>Nikolaus Otto zbudował czterosuwowy silnik. Geometria była prosta — tłok, cylinder, wał. <strong>Inżynierowie zaczęli udoskonalać mechanikę</strong>, nie termodynamikę. Lepsze korbki, precyzyjniejsze tryby, cieńsze tłoki. Fundament był błędny, ale nikt tego nie kwestionował.</p>
+          <h4 data-i18n="hist.era2.title">Otto, korbowód, cylinder</h4>
+          <p data-i18n="hist.era2.body">Nikolaus Otto zbudował czterosuwowy silnik. Geometria była prosta — tłok, cylinder, wał. <strong>Inżynierowie zaczęli udoskonalać mechanikę</strong>, nie termodynamikę. Lepsze korbki, precyzyjniejsze tryby, cieńsze tłoki. Fundament był błędny, ale nikt tego nie kwestionował.</p>
         </div>
       </div>
 
       <div class="htl-chapter">
         <div class="htl-year">1900–1950</div>
         <div class="htl-content">
-          <h4>Wyścig mocy</h4>
-          <p>Ford T, silniki lotnicze, czołgi — liczyła się <strong>moc na kilogram</strong>, nie sprawność energetyczna. Nafta była tak tania, że traktowano ją jak wodę. Inżynierowie świętowali, gdy silnik przekroczył 6 000 rpm. Nikt nie zauważył, że 60% energii ulatuje przez rurę wydechu.</p>
+          <h4 data-i18n="hist.era3.title">Wyścig mocy</h4>
+          <p data-i18n="hist.era3.body">Ford T, silniki lotnicze, czołgi — liczyła się <strong>moc na kilogram</strong>, nie sprawność energetyczna. Nafta była tak tania, że traktowano ją jak wodę. Inżynierowie świętowali, gdy silnik przekroczył 6 000 rpm. Nikt nie zauważył, że 60% energii ulatuje przez rurę wydechu.</p>
         </div>
       </div>
 
       <div class="htl-chapter">
         <div class="htl-year">1950–2024</div>
         <div class="htl-content">
-          <h4>Ewolucja bez rewolucji</h4>
-          <p>Wtrysk bezpośredni, turbodoładowanie, VVT — <strong>każda dekada przynosiła korekty tej samej błędnej architektury</strong>. Sprawność wzrosła z 25% do 38%... na przestrzeni stu lat. Tymczasem fizyka ruchu posuwisto-zwrotnego czeka niezmieniona, jak mur, przez który żaden inżynier nie potrafił przejść.</p>
+          <h4 data-i18n="hist.era4.title">Ewolucja bez rewolucji</h4>
+          <p data-i18n="hist.era4.body">Wtrysk bezpośredni, turbodoładowanie, VVT — <strong>każda dekada przynosiła korekty tej samej błędnej architektury</strong>. Sprawność wzrosła z 25% do 38%... na przestrzeni stu lat. Tymczasem fizyka ruchu posuwisto-zwrotnego czeka niezmieniona, jak mur, przez który żaden inżynier nie potrafił przejść.</p>
         </div>
       </div>
 
@@ -912,11 +912,11 @@
       <div class="dd-bar"></div>
       <div class="dd-content">
         <div class="dd-quote-mark">"</div>
-        <p class="dd-quote">
+        <p class="dd-quote" data-i18n="hist.diesel">
           Rudolf Diesel marzył o silniku <strong>bez strat na chłodzenie komory pracy</strong> —
           silniku, który wyciągnie z paliwa niemal całą energię.
           Nie zdążył go zbudować.<br>
-          <span style="color:var(--gold);">Jego marzenie czekało 130 lat.</span>
+          <span style="color:var(--gold);" data-i18n="hist.dream">Jego marzenie czekało 130 lat.</span>
         </p>
       </div>
     </div>
@@ -927,10 +927,10 @@
   <div class="hist-transition">
     <div class="ht-line"></div>
     <div class="ht-label">
-      <span class="ht-from">Stara droga: mechanika najpierw</span>
+      <span class="ht-from" data-i18n="ht.from">Stara droga: mechanika najpierw</span>
       <div class="ht-arrow-box">
         <span class="ht-arrow">→</span>
-        <span class="ht-new" style="color:var(--neon);">Nowa droga: termodynamika najpierw</span>
+        <span class="ht-new" style="color:var(--neon);" data-i18n="ht.to">Nowa droga: termodynamika najpierw</span>
       </div>
     </div>
     <div class="ht-line"></div>
@@ -940,16 +940,16 @@
   <div class="rcpm-story-wrap">
 
     <div class="rs-header">
-      <span class="s-label" style="color:var(--neon);">// Poszukiwanie optymalnego silnika</span>
-      <h2 class="rs-title">ZACZĘLIŚMY OD<br><span style="color:var(--neon);">TERMODYNAMIKI.</span><br>NIE OD KORBKI.</h2>
-      <div class="rs-intro">
+      <span class="s-label" style="color:var(--neon);" data-i18n="rs.label">// Poszukiwanie optymalnego silnika</span>
+      <h2 class="rs-title" data-i18n="rs.title">ZACZĘLIŚMY OD<br><span style="color:var(--neon);">TERMODYNAMIKI.</span><br>NIE OD KORBKI.</h2>
+      <div class="rs-intro" data-i18n="rs.intro">
         <p>Poszukiwania optymalnego silnika zaczęliśmy od <strong>optymalizacji termodynamiki</strong>, z której wynikły wymagania i cele konstrukcyjne.</p>
         <p>Zamierzamy spełnić marzenie <strong>Rudolfa Diesla</strong> o silniku bez strat na chłodzenie komory pracy.</p>
         <p>Proponowana przez nas <strong>„złota" przemiana termodynamiczna</strong> wymagałaby:</p>
         <ul class="rs-req-list">
           <li><span class="rrl-val">19 100</span> obrotów / min</li>
-          <li><span class="rrl-val">0</span> sił bezwładności<br><span class="rrl-sub">Ruch promieniowy cylindrów RCPM eliminuje siły bezwładności ruchu posuwisto-zwrotnego. Siła Coriolisa staje się użyteczna — pomaga w sprężaniu.</span></li>
-          <li><span class="rrl-val">38,2 m/s</span> ekspansji liniowej<br><span class="rrl-sub">(dwukrotnie więcej niż w silnikach Formuły 1)</span></li>
+          <li><span class="rrl-val">0</span> sił bezwładności<br><span class="rrl-sub" data-i18n="rs.req2sub">Ruch promieniowy cylindrów RCPM eliminuje siły bezwładności ruchu posuwisto-zwrotnego. Siła Coriolisa staje się użyteczna — pomaga w sprężaniu.</span></li>
+          <li><span class="rrl-val">38,2 m/s</span> ekspansji liniowej<br><span class="rrl-sub" data-i18n="rs.req3sub">(dwukrotnie więcej niż w silnikach Formuły 1)</span></li>
         </ul>
       </div>
     </div>
@@ -960,26 +960,26 @@
       <div class="rs-anim-col">
         <div class="rs-anim-label rs-anim-bad">
           <span class="ral-dot" style="background:var(--red);"></span>
-          SILNIK TŁOKOWY — ruch posuwisto-zwrotny
+          <span data-i18n="rs.pistonLabel">SILNIK TŁOKOWY — ruch posuwisto-zwrotny</span>
         </div>
         <canvas id="compPistonCanvas" width="340" height="280" class="rs-canvas"></canvas>
         <div class="rs-anim-stats rs-anim-stats-bad">
-          <span>Siły bezwładności: <strong style="color:var(--red);">rosną z v²</strong></span>
+          <span data-i18n="rs.pistonStat1">Siły bezwładności: <strong style="color:var(--red);">rosną z v²</strong></span>
           <span>Hard limit: <strong style="color:var(--red);">~6 500 rpm</strong></span>
-          <span>Sprawność: <strong style="color:var(--red);">35–42%</strong></span>
+          <span data-i18n="rs.pistonStat3">Sprawność: <strong style="color:var(--red);">35–42%</strong></span>
         </div>
       </div>
       <div class="rs-anim-vs">VS</div>
       <div class="rs-anim-col">
         <div class="rs-anim-label rs-anim-good">
           <span class="ral-dot" style="background:var(--neon);"></span>
-          RCPM — ruch promieniowy cylindrów
+          <span data-i18n="rs.rcpmLabel">RCPM — ruch promieniowy cylindrów</span>
         </div>
         <canvas id="compRcpmCanvas" width="340" height="280" class="rs-canvas"></canvas>
         <div class="rs-anim-stats rs-anim-stats-good">
-          <span>Siły bezwładności: <strong style="color:var(--neon);">zminimalizowane</strong></span>
+          <span data-i18n="rs.rcpmStat1">Siły bezwładności: <strong style="color:var(--neon);">zminimalizowane</strong></span>
           <span>Cel: <strong style="color:var(--neon);">&gt;19 100 rpm</strong></span>
-          <span>Sprawność: <strong style="color:var(--neon);">&gt;60%</strong></span>
+          <span data-i18n="rs.rcpmStat3">Sprawność: <strong style="color:var(--neon);">&gt;60%</strong></span>
         </div>
       </div>
     </div>
@@ -1024,28 +1024,28 @@
         <div style="display:flex;flex-direction:column;gap:8px;">
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:#FF3030;font-size:14px;margin-top:1px;">✓</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);">Cylindryczna komora spalania — sprawdzona termodynamika</span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);" data-i18n="pvr.p.check1">Cylindryczna komora spalania — sprawdzona termodynamika</span>
           </div>
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:#FF3030;font-size:14px;margin-top:1px;">✓</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);">6-suwowy cykl — lepsza sprawność niż 4-suw</span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);" data-i18n="pvr.p.check2">6-suwowy cykl — lepsza sprawność niż 4-suw</span>
           </div>
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:#FF3030;font-size:14px;margin-top:1px;">✓</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);">Mimośród — eliminuje część sił bezwładności</span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);" data-i18n="pvr.p.check3">Mimośród — eliminuje część sił bezwładności</span>
           </div>
           <div style="border-top:1px solid rgba(255,48,48,0.15);margin-top:8px;padding-top:12px;"></div>
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:rgba(255,100,100,0.6);font-size:14px;margin-top:1px;">✗</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.4);">Ruch posuwisto-zwrotny — <strong style="color:rgba(255,80,80,0.7);">wciąż obecny</strong></span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.4);" data-i18n="pvr.p.x1">Ruch posuwisto-zwrotny — <strong style="color:rgba(255,80,80,0.7);">wciąż obecny</strong></span>
           </div>
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:rgba(255,100,100,0.6);font-size:14px;margin-top:1px;">✗</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.4);">Wał korbowy — złożoność, masa, limity RPM</span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.4);" data-i18n="pvr.p.x2">Wał korbowy — złożoność, masa, limity RPM</span>
           </div>
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:rgba(255,100,100,0.6);font-size:14px;margin-top:1px;">✗</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.4);">Myślenie w ramach istniejącej architektury</span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.4);" data-i18n="pvr.p.x3">Myślenie w ramach istniejącej architektury</span>
           </div>
         </div>
 
@@ -1073,28 +1073,28 @@
         <div style="display:flex;flex-direction:column;gap:8px;">
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:#00D4FF;font-size:14px;margin-top:1px;">✓</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);">Cylindryczna komora spalania — <strong style="color:#00D4FF;">zachowana</strong></span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);" data-i18n="pvr.r.check1">Cylindryczna komora spalania — <strong style="color:#00D4FF;">zachowana</strong></span>
           </div>
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:#00D4FF;font-size:14px;margin-top:1px;">✓</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);">12-suwowy cykl z AKS — <strong style="color:#00D4FF;">sprawność &gt;60%</strong></span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);" data-i18n="pvr.r.check2">12-suwowy cykl z AKS — <strong style="color:#00D4FF;">sprawność &gt;60%</strong></span>
           </div>
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:#00D4FF;font-size:14px;margin-top:1px;">✓</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);">Ruch obrotowy jak Wankel — bez wad Wankla</span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.7);" data-i18n="pvr.r.check3">Ruch obrotowy jak Wankel — bez wad Wankla</span>
           </div>
           <div style="border-top:1px solid rgba(0,212,255,0.12);margin-top:8px;padding-top:12px;"></div>
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:#00E87A;font-size:14px;margin-top:1px;">✓</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.8);"><strong style="color:#00E87A;">Zero</strong> ruchu posuwisto-zwrotnego</span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.8);" data-i18n="pvr.r.check4"><strong style="color:#00E87A;">Zero</strong> ruchu posuwisto-zwrotnego</span>
           </div>
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:#00E87A;font-size:14px;margin-top:1px;">✓</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.8);"><strong style="color:#00E87A;">Zero</strong> wału korbowego — cały cylinder się obraca</span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.8);" data-i18n="pvr.r.check5"><strong style="color:#00E87A;">Zero</strong> wału korbowego — cały cylinder się obraca</span>
           </div>
           <div style="display:flex;align-items:flex-start;gap:10px;">
             <span style="color:#00E87A;font-size:14px;margin-top:1px;">✓</span>
-            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.8);">8 kg · &gt;19 100 RPM · wszystkie paliwa</span>
+            <span style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.8);" data-i18n="pvr.r.check6">8 kg · &gt;19 100 RPM · wszystkie paliwa</span>
           </div>
         </div>
 
@@ -1143,7 +1143,7 @@
           <span style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:2px;color:#fff;">MAZDA</span>
           <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:rgba(245,166,35,0.7);letter-spacing:2px;background:rgba(245,166,35,0.08);padding:3px 8px;border:1px solid rgba(245,166,35,0.2);border-radius:2px;">2024</span>
         </div>
-        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;">Po prawie 6 latach reaktywacja działu <strong style="color:rgba(255,255,255,0.85);">RE Development Group</strong> (1 luty 2024). 36 inżynierów skupionych wyłącznie na silnikach rotacyjnych jako generatorach. MX-30 e-Skyactiv R-EV — jako pierwszy na rynku seryjny samochód z rotacyjnym range extenderem.</p>
+        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;" data-i18n="tr.mazda.desc">Po prawie 6 latach reaktywacja działu <strong style="color:rgba(255,255,255,0.85);">RE Development Group</strong> (1 luty 2024). 36 inżynierów skupionych wyłącznie na silnikach rotacyjnych jako generatorach. MX-30 e-Skyactiv R-EV — jako pierwszy na rynku seryjny samochód z rotacyjnym range extenderem.</p>
         <a href="https://newsroom.mazda.com/en/publicity/release/2024/202402/240201b.html" target="_blank" rel="noopener" style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1px;color:rgba(0,212,255,0.6);text-decoration:none;border-bottom:1px solid rgba(0,212,255,0.2);padding-bottom:1px;">↗ newsroom.mazda.com · 01.02.2024</a>
       </div>
 
@@ -1153,7 +1153,7 @@
           <span style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:2px;color:#fff;">RAM · STELLANTIS</span>
           <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:rgba(245,166,35,0.7);letter-spacing:2px;background:rgba(245,166,35,0.08);padding:3px 8px;border:1px solid rgba(245,166,35,0.2);border-radius:2px;">2025</span>
         </div>
-        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;">Ram 1500 Ramcharger — silnik V6 3,6l Pentastar pracuje <strong style="color:rgba(255,255,255,0.85);">wyłącznie jako generator</strong>, nie napędza kół. Zasięg 690+ mil. Stellantis potwierdza: generator spalinowy w pick-upie to odpowiedź na range anxiety dla ciężkich pojazdów.</p>
+        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;" data-i18n="tr.ram.desc">Ram 1500 Ramcharger — silnik V6 3,6l Pentastar pracuje <strong style="color:rgba(255,255,255,0.85);">wyłącznie jako generator</strong>, nie napędza kół. Zasięg 690+ mil. Stellantis potwierdza: generator spalinowy w pick-upie to odpowiedź na range anxiety dla ciężkich pojazdów.</p>
         <a href="https://www.motortrend.com/cars/ram/1500/news/2025-ram-1500-ramcharger-erev/" target="_blank" rel="noopener" style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1px;color:rgba(0,212,255,0.6);text-decoration:none;border-bottom:1px solid rgba(0,212,255,0.2);padding-bottom:1px;">↗ motortrend.com · Ram Ramcharger EREV</a>
       </div>
 
@@ -1163,7 +1163,7 @@
           <span style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:2px;color:#fff;">HYUNDAI · KIA</span>
           <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:rgba(245,166,35,0.7);letter-spacing:2px;background:rgba(245,166,35,0.08);padding:3px 8px;border:1px solid rgba(245,166,35,0.2);border-radius:2px;">2027</span>
         </div>
-        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;">CEO Hyundai ogłosił w 2024 r. wdrożenie systemu EREV (<strong style="color:rgba(255,255,255,0.85);">Two Motor System</strong>) dla Santa Fe i GV70 (Genesis). Kia CEO Day 2025: system EREV oparty na silniku 2,5l dla następnej generacji Telluride. Cel: 600+ mil zasięgu i ponad 80 000 aut/rok od 2027.</p>
+        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;" data-i18n="tr.hyundai.desc">CEO Hyundai ogłosił w 2024 r. wdrożenie systemu EREV (<strong style="color:rgba(255,255,255,0.85);">Two Motor System</strong>) dla Santa Fe i GV70 (Genesis). Kia CEO Day 2025: system EREV oparty na silniku 2,5l dla następnej generacji Telluride. Cel: 600+ mil zasięgu i ponad 80 000 aut/rok od 2027.</p>
         <a href="https://topelectricsuv.com/hybrid-trucks/range-extender-models-upcoming/" target="_blank" rel="noopener" style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1px;color:rgba(0,212,255,0.6);text-decoration:none;border-bottom:1px solid rgba(0,212,255,0.2);padding-bottom:1px;">↗ topelectricsuv.com · EREV 2026-2028</a>
       </div>
 
@@ -1173,7 +1173,7 @@
           <span style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:2px;color:#fff;">MAHLE</span>
           <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:rgba(245,166,35,0.7);letter-spacing:2px;background:rgba(245,166,35,0.08);padding:3px 8px;border:1px solid rgba(245,166,35,0.2);border-radius:2px;">IAA 2025</span>
         </div>
-        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;">Na IAA Mobility 2025 w Monachium MAHLE zaprezentował kompaktowy <strong style="color:rgba(255,255,255,0.85);">silnik-generator multi-paliwo</strong> z zapłonem strumieniowym. Deklarowany zasięg: 838 mil (1350 km) — ponad dwukrotność najlepszych BEV na rynku. Gotowy do integracji z dowolną platformą EV.</p>
+        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;" data-i18n="tr.mahle.desc">Na IAA Mobility 2025 w Monachium MAHLE zaprezentował kompaktowy <strong style="color:rgba(255,255,255,0.85);">silnik-generator multi-paliwo</strong> z zapłonem strumieniowym. Deklarowany zasięg: 838 mil (1350 km) — ponad dwukrotność najlepszych BEV na rynku. Gotowy do integracji z dowolną platformą EV.</p>
         <a href="https://newatlas.com/automotive/mahle-jet-ignition-range-extender/" target="_blank" rel="noopener" style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1px;color:rgba(0,212,255,0.6);text-decoration:none;border-bottom:1px solid rgba(0,212,255,0.2);padding-bottom:1px;">↗ newatlas.com · MAHLE IAA 2025</a>
       </div>
 
@@ -1183,7 +1183,7 @@
           <span style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:2px;color:#fff;">LI AUTO · CHINY</span>
           <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:rgba(245,166,35,0.7);letter-spacing:2px;background:rgba(245,166,35,0.08);padding:3px 8px;border:1px solid rgba(245,166,35,0.2);border-radius:2px;">2024</span>
         </div>
-        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;">Li Auto — największy gracz EREV na rynku masowym. Seria L (L6, L7, L8, L9) z silnikami ICE jako generatorami. Masowe dostawy w 2024 roku. W Chinach liczba dostępnych modeli EREV <strong style="color:rgba(255,255,255,0.85);">podwoiła się z 2023 do 2024</strong> — ponad 36 modeli. Dowód: rynek głosuje.</p>
+        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;" data-i18n="tr.liauto.desc">Li Auto — największy gracz EREV na rynku masowym. Seria L (L6, L7, L8, L9) z silnikami ICE jako generatorami. Masowe dostawy w 2024 roku. W Chinach liczba dostępnych modeli EREV <strong style="color:rgba(255,255,255,0.85);">podwoiła się z 2023 do 2024</strong> — ponad 36 modeli. Dowód: rynek głosuje.</p>
         <a href="https://www.astuteanalytica.com/industry-report/electric-vehicle-range-extender-market" target="_blank" rel="noopener" style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1px;color:rgba(0,212,255,0.6);text-decoration:none;border-bottom:1px solid rgba(0,212,255,0.2);padding-bottom:1px;">↗ astuteanalytica.com · EV Range Extender Market 2025</a>
       </div>
 
@@ -1193,7 +1193,7 @@
           <span style="font-family:'Bebas Neue',sans-serif;font-size:22px;letter-spacing:2px;color:#fff;">PORSCHE AG</span>
           <span style="font-family:'JetBrains Mono',monospace;font-size:9px;color:rgba(255,80,80,0.7);letter-spacing:2px;background:rgba(255,48,48,0.08);padding:3px 8px;border:1px solid rgba(255,48,48,0.2);border-radius:2px;">2024</span>
         </div>
-        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;">Patent US 2024/0301817 — 6-suwowy silnik hipocykloidalny. <strong style="color:rgba(255,255,255,0.85);">Porsche oficjalnie szuka alternatywy</strong> dla klasycznej architektury tłokowej. Patentuje rozwiązanie, które RCPM już rozwiązało inaczej i radykalniej.</p>
+        <p style="font-family:'Rajdhani',sans-serif;font-size:14px;color:rgba(255,255,255,0.65);line-height:1.6;margin:0 0 14px;" data-i18n="tr.porsche.desc">Patent US 2024/0301817 — 6-suwowy silnik hipocykloidalny. <strong style="color:rgba(255,255,255,0.85);">Porsche oficjalnie szuka alternatywy</strong> dla klasycznej architektury tłokowej. Patentuje rozwiązanie, które RCPM już rozwiązało inaczej i radykalniej.</p>
         <a href="https://patents.google.com/patent/US20240301817A1" target="_blank" rel="noopener" style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:1px;color:rgba(255,100,100,0.6);text-decoration:none;border-bottom:1px solid rgba(255,80,80,0.2);padding-bottom:1px;">↗ patents.google.com · US 2024/0301817 A1</a>
       </div>
 
@@ -1300,11 +1300,11 @@
 
     <!-- Right: visual bars -->
     <div class="energy-bars-section">
-      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;color:var(--muted);margin-bottom:20px;text-transform:uppercase;">// Gęstość energii (Wh/kg) — skala logarytmiczna</div>
+      <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;color:var(--muted);margin-bottom:20px;text-transform:uppercase;" data-i18n="en.barsLabel">// Gęstość energii (Wh/kg) — skala logarytmiczna</div>
 
       <div class="eb-row">
         <div class="eb-meta">
-          <span class="eb-label" style="color:var(--neon);">💧 Wodór</span>
+          <span class="eb-label" style="color:var(--neon);" data-i18n="en.h2bar">💧 Wodór</span>
           <span class="eb-num" style="color:var(--neon);">33 000 Wh/kg</span>
         </div>
         <div class="eb-track"><div class="eb-fill" style="width:100%;background:var(--neon);box-shadow:0 0 12px rgba(0,212,255,0.5);"></div></div>
@@ -1313,7 +1313,7 @@
 
       <div class="eb-row">
         <div class="eb-meta">
-          <span class="eb-label" style="color:#00E87A;">🌿 e-Paliwa / biogaz</span>
+          <span class="eb-label" style="color:#00E87A;" data-i18n="en.efuelbar">🌿 e-Paliwa / biogaz</span>
           <span class="eb-num" style="color:#00E87A;">~8 500 Wh/kg</span>
         </div>
         <div class="eb-track"><div class="eb-fill" style="width:64%;background:#00E87A;box-shadow:0 0 8px rgba(0,232,122,0.4);"></div></div>
@@ -1322,7 +1322,7 @@
 
       <div class="eb-row">
         <div class="eb-meta">
-          <span class="eb-label" style="color:#8C95AA;">⛽ Benzyna / diesel</span>
+          <span class="eb-label" style="color:#8C95AA;" data-i18n="en.petrolbar">⛽ Benzyna / diesel</span>
           <span class="eb-num" style="color:#8C95AA;">~12 000 Wh/kg</span>
         </div>
         <div class="eb-track"><div class="eb-fill" style="width:90%;background:#5A6278;"></div></div>
@@ -1331,7 +1331,7 @@
 
       <div class="eb-row">
         <div class="eb-meta">
-          <span class="eb-label" style="color:#2A3048;">🔋 Bateria Li-Ion</span>
+          <span class="eb-label" style="color:#2A3048;" data-i18n="en.battbar">🔋 Bateria Li-Ion</span>
           <span class="eb-num" style="color:#2A3048;">~250 Wh/kg</span>
         </div>
         <div class="eb-track"><div class="eb-fill" style="width:2%;background:#2A3048;min-width:4px;"></div></div>
@@ -1339,7 +1339,7 @@
       </div>
 
       <div style="margin-top:20px;padding:14px 16px;border-left:3px solid var(--gold);background:rgba(245,166,35,0.05);">
-        <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:1px;">
+        <span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:1px;" data-i18n="en.rcpmNote">
           RCPM może spalać każde z tych paliw — czysto i efektywnie.
         </span>
       </div>
@@ -1357,24 +1357,24 @@
   <div class="problem-cards">
     <div class="prob-card">
       <div class="prob-icon">⚙️</div>
-      <div class="prob-title">Ruch Posuwisto-Zwrotny</div>
-      <p class="prob-text">Siły bezwładności rosną z kwadratem prędkości (F∝v²). Przy ~6 500 rpm tłok musi się zatrzymać i odwrócić — fizyczny mur nie do przebicia. Masywne koła zamachowe, wibracje, zużycie. Od 150 lat bez zmiany.</p>
+      <div class="prob-title" data-i18n="prob.card1.title">Ruch Posuwisto-Zwrotny</div>
+      <p class="prob-text" data-i18n="prob.card1.text">Siły bezwładności rosną z kwadratem prędkości (F∝v²). Przy ~6 500 rpm tłok musi się zatrzymać i odwrócić — fizyczny mur nie do przebicia. Masywne koła zamachowe, wibracje, zużycie. Od 150 lat bez zmiany.</p>
       <div class="prob-figure">6 500</div>
     </div>
     <div class="prob-card">
       <div class="prob-icon">🌡️</div>
-      <div class="prob-title">Sprawność ~35–42%</div>
-      <p class="prob-text">Ponad połowa energii chemicznej paliwa ucieka jako ciepło. Dekady downsizingu, turbo i VVT — inżynierowie osiągnęli sufit. Dalej już się nie da bez zmiany fundamentalnej architektury.</p>
+      <div class="prob-title" data-i18n="prob.card2.title">Sprawność ~35–42%</div>
+      <p class="prob-text" data-i18n="prob.card2.text">Ponad połowa energii chemicznej paliwa ucieka jako ciepło. Dekady downsizingu, turbo i VVT — inżynierowie osiągnęli sufit. Dalej już się nie da bez zmiany fundamentalnej architektury.</p>
       <div class="prob-figure">42%</div>
     </div>
     <div class="prob-card">
       <div class="prob-icon">🔺</div>
-      <div class="prob-title">Wankel Próbował</div>
-      <p class="prob-text">Felix Wankel zlikwidował ruch posuwisto-zwrotny. Ale apex seals — trójkątne uszczelki wierzchołkowe — to chroniczna nieszczelność = spalanie oleju = ~25% sprawność. Mazda wciąż szuka rozwiązania.</p>
+      <div class="prob-title" data-i18n="prob.card3.title">Wankel Próbował</div>
+      <p class="prob-text" data-i18n="prob.card3.text">Felix Wankel zlikwidował ruch posuwisto-zwrotny. Ale apex seals — trójkątne uszczelki wierzchołkowe — to chroniczna nieszczelność = spalanie oleju = ~25% sprawność. Mazda wciąż szuka rozwiązania.</p>
       <div class="prob-figure">25%</div>
     </div>
   </div>
-  <div class="prob-quote">
+  <div class="prob-quote" data-i18n="prob.quote">
     <strong>„Branża od dekad poprawia stare pomysły zamiast tworzyć nowe fundamenty."</strong><br>
     — Zbigniew Sadlak, wynalazca RCPM, IBS Monachium
   </div>
@@ -1382,16 +1382,16 @@
 
 <!-- ═══════════════════════════════════ 3. TECHNOLOGIA ═══════════════════════════════════ -->
 <section id="technologia">
-  <span class="s-label">// 02 · Technologia RCPM</span>
+  <span class="s-label" data-i18n="tech.label">// 02 · Technologia RCPM</span>
   <h2 class="s-title" data-i18n="tech.title">OPATENTOWANA<br><span>ARCHITEKTURA</span></h2>
   <p class="s-sub" data-i18n="tech.sub">Nie kolejna modernizacja. Nowy fundament. Zweryfikowany przez Journal of Thermal Science i ICCHMT 2018.</p>
 
   <div class="tech-arch">
     <div>
       <div class="tech-arch-text">
-        <p>Polski Silnik Optymalnie Cieplny oparty jest na opatentowanej rewolucyjnej architekturze <em>RCPM — Rotating Cylindrical Piston Machine</em>, czyli Rotacyjnej Maszynie z Tłokami Cylindrycznymi, która łączy zalety silnika tłokowego i rotacyjnego, eliminując ich największe wady.</p>
-        <p>Zamiast liniowego ruchu tłoków, konstrukcja opiera się na <em>przeciwruchu cylindrycznych tłoków poruszających się promieniowo</em> w obracającym się wirniku. Dzięki dwóm przesuniętym osiom obrotu oraz kinetycznemu wyważeniu komponentów, niemal całkowicie wyeliminowano <em>siły bezwładnościowe i efekt Coriolisa</em>, które od dekad ograniczały rozwój silników rotacyjnych.</p>
-        <p>W odróżnieniu od Wankla — cylindryczne powierzchnie uszczelniające eliminują problem apex seals. Wynik: szczelność porównywalna z silnikiem tłokowym przy braku jego fundamentalnych ograniczeń.</p>
+        <p data-i18n="tech.arch1">Polski Silnik Optymalnie Cieplny oparty jest na opatentowanej rewolucyjnej architekturze <em>RCPM — Rotating Cylindrical Piston Machine</em>, czyli Rotacyjnej Maszynie z Tłokami Cylindrycznymi, która łączy zalety silnika tłokowego i rotacyjnego, eliminując ich największe wady.</p>
+        <p data-i18n="tech.arch2">Zamiast liniowego ruchu tłoków, konstrukcja opiera się na <em>przeciwruchu cylindrycznych tłoków poruszających się promieniowo</em> w obracającym się wirniku. Dzięki dwóm przesuniętym osiom obrotu oraz kinetycznemu wyważeniu komponentów, niemal całkowicie wyeliminowano <em>siły bezwładnościowe i efekt Coriolisa</em>, które od dekad ograniczały rozwój silników rotacyjnych.</p>
+        <p data-i18n="tech.arch3">W odróżnieniu od Wankla — cylindryczne powierzchnie uszczelniające eliminują problem apex seals. Wynik: szczelność porównywalna z silnikiem tłokowym przy braku jego fundamentalnych ograniczeń.</p>
       </div>
     </div>
     <div class="tech-arch-visual">
@@ -1410,26 +1410,26 @@
   <div class="tech-cards">
     <div class="tech-card">
       <div class="tech-card-num">01</div>
-      <div class="tech-card-title">Ruch Promieniowy</div>
-      <p class="tech-card-text">Cylindryczne tłoki poruszają się promieniowo w wirującym bloku. Superpozycja dwóch obrotów eliminuje siły Coriolisa i siły bezwładności. Brak sufitu RPM — blok 3 000 rpm, tłoki powyżej 11 500 rpm.</p>
-      <div class="tech-card-hl">→ Brak sił bezwładności · Cylindryczne uszczelnienie</div>
+      <div class="tech-card-title" data-i18n="tech.c1.title">Ruch Promieniowy</div>
+      <p class="tech-card-text" data-i18n="tech.c1.text">Cylindryczne tłoki poruszają się promieniowo w wirującym bloku. Superpozycja dwóch obrotów eliminuje siły Coriolisa i siły bezwładności. Brak sufitu RPM — blok 3 000 rpm, tłoki powyżej 11 500 rpm.</p>
+      <div class="tech-card-hl" data-i18n="tech.c1.hl">→ Brak sił bezwładności · Cylindryczne uszczelnienie</div>
     </div>
     <div class="tech-card">
       <div class="tech-card-num">02</div>
-      <div class="tech-card-title">AKS — Aktywna Komora Spalania</div>
-      <p class="tech-card-text">Dwie metaliczne warstwy termiczne 0,1 mm przy GMP i DMP. Aktywna kontrola temperatury i ciśnienia co 2 ms. Redukcja zużycia paliwa -2 dcm³/100 km i emisji CO₂ o -46 g/km vs standardowy silnik.</p>
-      <div class="tech-card-hl">→ -2 dcm³/100km · -46g CO₂/km · Aktywna redukcja NOx</div>
+      <div class="tech-card-title" data-i18n="tech.c2.title">AKS — Aktywna Komora Spalania</div>
+      <p class="tech-card-text" data-i18n="tech.c2.text">Dwie metaliczne warstwy termiczne 0,1 mm przy GMP i DMP. Aktywna kontrola temperatury i ciśnienia co 2 ms. Redukcja zużycia paliwa -2 dcm³/100 km i emisji CO₂ o -46 g/km vs standardowy silnik.</p>
+      <div class="tech-card-hl" data-i18n="tech.c2.hl">→ -2 dcm³/100km · -46g CO₂/km · Aktywna redukcja NOx</div>
     </div>
     <div class="tech-card">
       <div class="tech-card-num">03</div>
-      <div class="tech-card-title">12-Suwowy Cykl</div>
-      <p class="tech-card-text">Unikalny 12-suwowy cykl termodynamiczny. Granulacja kontroli procesu spalania co 2 ms. Eliminacja przerysowania i niedospalania. Wyniki opublikowane w Journal of Thermal Science i zaprezentowane na ICCHMT 2018 Kraków.</p>
-      <div class="tech-card-hl">→ Kontrola co 2 ms · Peer-reviewed</div>
+      <div class="tech-card-title" data-i18n="tech.c3.title">12-Suwowy Cykl</div>
+      <p class="tech-card-text" data-i18n="tech.c3.text">Unikalny 12-suwowy cykl termodynamiczny. Granulacja kontroli procesu spalania co 2 ms. Eliminacja przerysowania i niedospalania. Wyniki opublikowane w Journal of Thermal Science i zaprezentowane na ICCHMT 2018 Kraków.</p>
+      <div class="tech-card-hl" data-i18n="tech.c3.hl">→ Kontrola co 2 ms · Peer-reviewed</div>
     </div>
     <div class="tech-card">
       <div class="tech-card-num">04</div>
-      <div class="tech-card-title">Modularność — Platforma, nie Produkt</div>
-      <p class="tech-card-text">Ta sama architektura skaluje się od mikrogeneratorów przez UAV i robotykę po range extentery EV i pełne hybrydowe elektrownie pokładowe. Jeden silnik. Sześć zastosowań. Każde z oddzielną licencją i rynkiem.</p>
+      <div class="tech-card-title" data-i18n="tech.c4.title">Modularność — Platforma, nie Produkt</div>
+      <p class="tech-card-text" data-i18n="tech.c4.text">Ta sama architektura skaluje się od mikrogeneratorów przez UAV i robotykę po range extentery EV i pełne hybrydowe elektrownie pokładowe. Jeden silnik. Sześć zastosowań. Każde z oddzielną licencją i rynkiem.</p>
       <div class="tech-card-hl">→ AKS → AKS-P → PS/RCPM → PSG100 → PSGrex → PSE</div>
     </div>
   </div>
@@ -1437,11 +1437,11 @@
   <div class="tech-numbers">
     <div class="tech-num">
       <span class="tech-num-v">&gt;60%</span>
-      <span class="tech-num-l">Sprawność termiczna</span>
+      <span class="tech-num-l" data-i18n="tech.num1">Sprawność termiczna</span>
     </div>
     <div class="tech-num">
       <span class="tech-num-v">8 kg</span>
-      <span class="tech-num-l">Masa prototypu PSG100</span>
+      <span class="tech-num-l" data-i18n="tech.num2">Masa prototypu PSG100</span>
     </div>
     <div class="tech-num">
       <span class="tech-num-v">11 500</span>
@@ -1449,7 +1449,7 @@
     </div>
     <div class="tech-num">
       <span class="tech-num-v">2036</span>
-      <span class="tech-num-l">Patent PL·DE·KR·IN</span>
+      <span class="tech-num-l" data-i18n="tech.num4">Patent PL·DE·KR·IN</span>
     </div>
   </div>
 </section>
@@ -1460,9 +1460,9 @@
 
     <!-- 12-Stroke Cycle Visualizer -->
     <div style="margin-bottom:80px;">
-      <span class="s-label">// Interactive · 12-Stroke Cycle</span>
-      <h2 class="s-title" style="margin-bottom:8px;">12-STROKE<br><span>CYCLE VISUALIZER</span></h2>
-      <p class="s-sub" style="margin-bottom:32px;">Step through each phase of the RCPM's unique 12-stroke thermodynamic cycle. Three combustion events, three expansion stages, maximum energy extraction.</p>
+      <span class="s-label" data-i18n="demo.cycle.label">// Interactive · 12-Stroke Cycle</span>
+      <h2 class="s-title" style="margin-bottom:8px;" data-i18n="demo.cycle.title">12-STROKE<br><span>CYCLE VISUALIZER</span></h2>
+      <p class="s-sub" style="margin-bottom:32px;" data-i18n="demo.cycle.desc">Step through each phase of the RCPM's unique 12-stroke thermodynamic cycle. Three combustion events, three expansion stages, maximum energy extraction.</p>
 
       <div style="position:relative;background:#04040C;border:1px solid rgba(0,212,255,0.08);border-radius:4px;overflow:hidden;">
         <canvas id="cycleCanvas" style="width:100%;height:360px;display:block;"></canvas>
@@ -1476,9 +1476,9 @@
 
     <!-- Fuel Comparison Calculator -->
     <div style="margin-bottom:80px;">
-      <span class="s-label">// Interactive · Fuel Calculator</span>
-      <h2 class="s-title" style="margin-bottom:8px;">FUEL<br><span>COMPARISON</span></h2>
-      <p class="s-sub" style="margin-bottom:32px;">Select a fuel type to see real-time range, CO₂ output, and efficiency comparison: RCPM vs. conventional engine.</p>
+      <span class="s-label" data-i18n="demo.fuel.label">// Interactive · Fuel Calculator</span>
+      <h2 class="s-title" style="margin-bottom:8px;" data-i18n="demo.fuel.title">FUEL<br><span>COMPARISON</span></h2>
+      <p class="s-sub" style="margin-bottom:32px;" data-i18n="demo.fuel.desc">Select a fuel type to see real-time range, CO₂ output, and efficiency comparison: RCPM vs. conventional engine.</p>
 
       <div id="fuelCalcWidget" style="background:#04040C;border:1px solid rgba(0,212,255,0.08);border-radius:4px;padding:32px;">
         <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px;">
@@ -1524,9 +1524,9 @@
 
     <!-- Weight / Power Density Comparison -->
     <div style="margin-bottom:80px;">
-      <span class="s-label">// Interactive · Power Density</span>
-      <h2 class="s-title" style="margin-bottom:8px;">WEIGHT vs.<br><span>PERFORMANCE</span></h2>
-      <p class="s-sub" style="margin-bottom:32px;">RCPM PSG100: 8 kg, 19,100 RPM — compared to conventional, turbo, Wankel, and F1 engines.</p>
+      <span class="s-label" data-i18n="demo.power.label">// Interactive · Power Density</span>
+      <h2 class="s-title" style="margin-bottom:8px;" data-i18n="demo.power.title">WEIGHT vs.<br><span>PERFORMANCE</span></h2>
+      <p class="s-sub" style="margin-bottom:32px;" data-i18n="demo.power.desc">RCPM PSG100: 8 kg, 19,100 RPM — compared to conventional, turbo, Wankel, and F1 engines.</p>
 
       <div style="background:#04040C;border:1px solid rgba(0,212,255,0.08);border-radius:4px;overflow:hidden;">
         <canvas id="wpCompCanvas" style="width:100%;height:340px;display:block;"></canvas>
@@ -1535,9 +1535,9 @@
 
     <!-- AKS Heat Buffering Animation -->
     <div>
-      <span class="s-label">// Interactive · AKS Heat System</span>
-      <h2 class="s-title" style="margin-bottom:8px;">AKS —<br><span>ACTIVE COMBUSTION SYSTEM</span></h2>
-      <p class="s-sub" style="margin-bottom:32px;">Watch heat energy flow between combustion cycles. Tungsten and aluminium layers (0.1mm) buffer thermal energy, breaking the Carnot efficiency ceiling.</p>
+      <span class="s-label" data-i18n="demo.aks.label">// Interactive · AKS Heat System</span>
+      <h2 class="s-title" style="margin-bottom:8px;" data-i18n="demo.aks.title">AKS —<br><span>ACTIVE COMBUSTION SYSTEM</span></h2>
+      <p class="s-sub" style="margin-bottom:32px;" data-i18n="demo.aks.desc">Watch heat energy flow between combustion cycles. Tungsten and aluminium layers (0.1mm) buffer thermal energy, breaking the Carnot efficiency ceiling.</p>
 
       <div style="position:relative;background:#04040C;border:1px solid rgba(245,166,35,0.08);border-radius:4px;overflow:hidden;">
         <canvas id="aksCanvas" style="width:100%;height:340px;display:block;"></canvas>
@@ -1554,9 +1554,9 @@
 <!-- ═══════════════════════════════════ 4. ANIMACJA PORÓWNAWCZA ═══════════════════════════════════ -->
 <section id="animacja" style="padding:0;">
   <div class="anim-header" style="padding-top:80px;padding-bottom:0;">
-    <span class="s-label">// 03 · Ewolucja Silników</span>
+    <span class="s-label" data-i18n="evo.label">// 03 · Ewolucja Silników</span>
     <h2 class="s-title" data-i18n="evo.gen.title">KAŻDA GENERACJA<br><span>MIAŁA SWÓJ SUFIT</span></h2>
-    <p class="s-sub" style="margin-bottom:40px;">Kliknij silnik, aby zobaczyć animację jego działania i barierę, którą napotkał.</p>
+    <p class="s-sub" style="margin-bottom:40px;" data-i18n="evo.sub2">Kliknij silnik, aby zobaczyć animację jego działania i barierę, którą napotkał.</p>
   </div>
   <div class="anim-wrap" style="padding-bottom:0;">
     <div class="evo-wrap">
@@ -1576,72 +1576,72 @@
   <div class="anim-wrap" style="padding-top:32px;padding-bottom:80px;">
     <div class="anim-table">
       <div class="anim-col">
-        <span class="anim-col-label">// Silnik Konwencjonalny</span>
-        <div class="anim-row"><span class="k">Siły bezwładności</span><span class="v v-bad">↑↑ Krytyczne</span></div>
+        <span class="anim-col-label" data-i18n="evo.col1.label">// Silnik Konwencjonalny</span>
+        <div class="anim-row"><span class="k" data-i18n="evo.col1.r1k">Siły bezwładności</span><span class="v v-bad" data-i18n="evo.col1.r1v">↑↑ Krytyczne</span></div>
         <div class="anim-row"><span class="k">Sufit RPM</span><span class="v v-bad">~6 500 rpm</span></div>
-        <div class="anim-row"><span class="k">Sprawność</span><span class="v v-bad">35–42%</span></div>
-        <div class="anim-row"><span class="k">Masa range ext.</span><span class="v v-bad">~200 kg</span></div>
+        <div class="anim-row"><span class="k" data-i18n="evo.col1.r3k">Sprawność</span><span class="v v-bad">35–42%</span></div>
+        <div class="anim-row"><span class="k" data-i18n="evo.col1.r4k">Masa range ext.</span><span class="v v-bad">~200 kg</span></div>
       </div>
       <div class="anim-col">
-        <span class="anim-col-label">// Silnik Wankla</span>
-        <div class="anim-row"><span class="k">Apex seals</span><span class="v v-bad">Nieszczelne ❌</span></div>
+        <span class="anim-col-label" data-i18n="evo.col2.label">// Silnik Wankla</span>
+        <div class="anim-row"><span class="k">Apex seals</span><span class="v v-bad" data-i18n="evo.col2.r1v">Nieszczelne ❌</span></div>
         <div class="anim-row"><span class="k">Sufit RPM</span><span class="v v-ok">~9 000 rpm</span></div>
-        <div class="anim-row"><span class="k">Sprawność</span><span class="v v-bad">~25%</span></div>
-        <div class="anim-row"><span class="k">Uszczelnienie</span><span class="v v-bad">Krytyczne</span></div>
+        <div class="anim-row"><span class="k" data-i18n="evo.col2.r3k">Sprawność</span><span class="v v-bad">~25%</span></div>
+        <div class="anim-row"><span class="k" data-i18n="evo.col2.r4k">Uszczelnienie</span><span class="v v-bad" data-i18n="evo.col2.r4v">Krytyczne</span></div>
       </div>
       <div class="anim-col winner">
-        <span class="anim-col-label">// RCPM — Revora Engine™</span>
-        <div class="anim-row"><span class="k">Uszczelnienie</span><span class="v v-good">Cylindryczne ✓</span></div>
+        <span class="anim-col-label" data-i18n="evo.col3.label">// RCPM — Revora Engine™</span>
+        <div class="anim-row"><span class="k" data-i18n="evo.col3.r1k">Uszczelnienie</span><span class="v v-good" data-i18n="evo.col3.r1v">Cylindryczne ✓</span></div>
         <div class="anim-row"><span class="k">Sufit RPM</span><span class="v v-good">&gt;11 500 rpm ✓</span></div>
-        <div class="anim-row"><span class="k">Sprawność</span><span class="v v-good">&gt;60% ✓</span></div>
+        <div class="anim-row"><span class="k" data-i18n="evo.col3.r3k">Sprawność</span><span class="v v-good">&gt;60% ✓</span></div>
         <div class="anim-row"><span class="k">Masa PSG100</span><span class="v v-good">&lt;8 kg ✓</span></div>
       </div>
     </div>
-    <p class="anim-caption"><strong>„RCPM łączy to, co najlepsze w obu światach — i eliminuje ich wady."</strong></p>
+    <p class="anim-caption" data-i18n="evo.caption"><strong>„RCPM łączy to, co najlepsze w obu światach — i eliminuje ich wady."</strong></p>
   </div>
 </section>
 
 <!-- ═══════════════════════════════════ 5. EWOLUCJA ═══════════════════════════════════ -->
 <section id="ewolucja">
-  <span class="s-label">// 04 · Od AKS do PSE</span>
+  <span class="s-label" data-i18n="flow.label">// 04 · Od AKS do PSE</span>
   <h2 class="s-title" data-i18n="evo.title">JEDEN WYNALAZEK<br><span class="gold">SZEŚĆ ZASTOSOWAŃ</span></h2>
   <p class="s-sub" data-i18n="evo.sub">Jedna platforma technologiczna — sześć produktów, sześć rynków, sześć strumieni przychodów.</p>
   <div class="flow-scroll">
     <div class="flow-track">
       <div class="flow-item">
         <div class="flow-arrow">→</div>
-        <span class="flow-status done">✓ PATENT PL/DE/KR/IN</span>
+        <span class="flow-status done" data-i18n="flow.aks.status">✓ PATENT PL/DE/KR/IN</span>
         <div class="flow-name">AKS</div>
-        <p class="flow-sub">Aktywna Komora Spalania. Drop-in do istniejących silników. -2 dcm³/100km, -46g CO₂/km. Dwie warstwy metaliczne 0,1 mm.</p>
+        <p class="flow-sub" data-i18n="flow.aks.desc">Aktywna Komora Spalania. Drop-in do istniejących silników. -2 dcm³/100km, -46g CO₂/km. Dwie warstwy metaliczne 0,1 mm.</p>
       </div>
       <div class="flow-item">
         <div class="flow-arrow">→</div>
-        <span class="flow-status done">✓ OPRACOWANY</span>
+        <span class="flow-status done" data-i18n="flow.aksp.status">✓ OPRACOWANY</span>
         <div class="flow-name">AKS-P</div>
-        <p class="flow-sub">Pierścień Komory Spalania. Uproszczona wersja drop-in przy GMP. Redukcja zużycia o ~1,3 dcm³/100km.</p>
+        <p class="flow-sub" data-i18n="flow.aksp.desc">Pierścień Komory Spalania. Uproszczona wersja drop-in przy GMP. Redukcja zużycia o ~1,3 dcm³/100km.</p>
       </div>
       <div class="flow-item">
         <div class="flow-arrow">→</div>
-        <span class="flow-status done">✓ PROTOTYP PS3</span>
+        <span class="flow-status done" data-i18n="flow.ps.status">✓ PROTOTYP PS3</span>
         <div class="flow-name">PS/RCPM</div>
-        <p class="flow-sub">Polski Silnik. Rotacja bloku 3 000 rpm. 8 kg. Brak ruchu posuwisto-zwrotnego. Bez wad Wankla i gwiazdowego.</p>
+        <p class="flow-sub" data-i18n="flow.ps.desc">Polski Silnik. Rotacja bloku 3 000 rpm. 8 kg. Brak ruchu posuwisto-zwrotnego. Bez wad Wankla i gwiazdowego.</p>
       </div>
       <div class="flow-item">
         <div class="flow-arrow">→</div>
-        <span class="flow-status wip">⟳ W OPRACOWANIU</span>
+        <span class="flow-status wip" data-i18n="flow.psg100.status">⟳ W OPRACOWANIU</span>
         <div class="flow-name">PSG100</div>
-        <p class="flow-sub">Miniaturowy generator wysokoobrotowy. PS zintegrowany z zespołem prądotwórczym. Pokładowa elektrownia dla UAV i pojazdów.</p>
+        <p class="flow-sub" data-i18n="flow.psg100.desc">Miniaturowy generator wysokoobrotowy. PS zintegrowany z zespołem prądotwórczym. Pokładowa elektrownia dla UAV i pojazdów.</p>
       </div>
       <div class="flow-item">
         <div class="flow-arrow">→</div>
-        <span class="flow-status wip">⟳ W OPRACOWANIU</span>
+        <span class="flow-status wip" data-i18n="flow.psg100.status">⟳ W OPRACOWANIU</span>
         <div class="flow-name">PSGrex</div>
-        <p class="flow-sub">Range Extender EV. &gt;20 kW, &lt;10 kg, &lt;€1 750. Zasięg +200 km. To czego nie rozwiązało BMW i3 ani Mazda.</p>
+        <p class="flow-sub" data-i18n="flow.psgrex.desc">Range Extender EV. &gt;20 kW, &lt;10 kg, &lt;€1 750. Zasięg +200 km. To czego nie rozwiązało BMW i3 ani Mazda.</p>
       </div>
       <div class="flow-item">
-        <span class="flow-status target">◎ CEL STRATEGICZNY</span>
+        <span class="flow-status target" data-i18n="flow.pse.status">◎ CEL STRATEGICZNY</span>
         <div class="flow-name">PSE</div>
-        <p class="flow-sub">Napędowa Spalinowa Elektrownia Pokładowa. Hybryd szeregowy nowej generacji. &lt;65g CO₂/km — norma UE 2030.</p>
+        <p class="flow-sub" data-i18n="flow.pse.desc">Napędowa Spalinowa Elektrownia Pokładowa. Hybryd szeregowy nowej generacji. &lt;65g CO₂/km — norma UE 2030.</p>
       </div>
     </div>
   </div>
@@ -1649,7 +1649,7 @@
 
 <!-- ═══════════════════════════════════ 6. RYNEK ═══════════════════════════════════ -->
 <section id="rynek">
-  <span class="s-label">// 05 · Rynek</span>
+  <span class="s-label" data-i18n="mkt.label">// 05 · Rynek</span>
   <h2 class="s-title" data-i18n="rynek.title">ROŚNIE NAJSZYBCIEJ —<br><span>WE WSZYSTKICH</span><br>SEGMENTACH JEDNOCZEŚNIE.</h2>
   <p class="s-sub" data-i18n="rynek.sub">Trzy segmenty. Trzy produkty. Jeden fundament technologiczny.</p>
 
@@ -1657,48 +1657,48 @@
   <div class="market-cards">
     <div class="mkt-card">
       <span class="mkt-card-icon">🔋</span>
-      <div class="mkt-card-name">ELEKTRYKI</div>
+      <div class="mkt-card-name" data-i18n="mkt.ev.name">ELEKTRYKI</div>
       <div class="mkt-card-product">PSGREX</div>
-      <p class="mkt-card-text">Range extender — zasięg +200 km bez rozbudowy baterii. Odpowiedź na problem, którego BMW i3 nie rozwiązało. &lt;10 kg, &lt;€1 750.</p>
+      <p class="mkt-card-text" data-i18n="mkt.ev.text">Range extender — zasięg +200 km bez rozbudowy baterii. Odpowiedź na problem, którego BMW i3 nie rozwiązało. &lt;10 kg, &lt;€1 750.</p>
     </div>
     <div class="mkt-card">
       <span class="mkt-card-icon">⚡</span>
-      <div class="mkt-card-name">HYBRYDY</div>
+      <div class="mkt-card-name" data-i18n="mkt.hyb.name">HYBRYDY</div>
       <div class="mkt-card-product">PSE / PSG100</div>
-      <p class="mkt-card-text">Elektrownia pokładowa nowej generacji. Dynamiczna adaptacja mocy. CO₂ &lt;62 g/km. Norma UE 2030 spełniona z zapasem.</p>
+      <p class="mkt-card-text" data-i18n="mkt.hyb.text">Elektrownia pokładowa nowej generacji. Dynamiczna adaptacja mocy. CO₂ &lt;62 g/km. Norma UE 2030 spełniona z zapasem.</p>
     </div>
     <div class="mkt-card">
       <span class="mkt-card-icon">🔧</span>
-      <div class="mkt-card-name">SPALINOWE</div>
+      <div class="mkt-card-name" data-i18n="mkt.ice.name">SPALINOWE</div>
       <div class="mkt-card-product">AKS / AKS-P</div>
-      <p class="mkt-card-text">Drop-in modification — bez wymiany silnika. -2 l/100 km, -40 g/km CO₂. Retrofitting 1,3 mld istniejących pojazdów.</p>
+      <p class="mkt-card-text" data-i18n="mkt.ice.text">Drop-in modification — bez wymiany silnika. -2 l/100 km, -40 g/km CO₂. Retrofitting 1,3 mld istniejących pojazdów.</p>
     </div>
   </div>
 
   <!-- DANE RYNKOWE POD KARTAMI -->
   <div class="market-data">
-    <div class="market-data-header">// Wartość rynku i dynamika wzrostu</div>
+    <div class="market-data-header" data-i18n="mkt.dataHeader">// Wartość rynku i dynamika wzrostu</div>
     <div class="market-data-grid">
       <div class="mkt-data-col">
-        <span class="mkt-data-label">Elektryki — PSGrex</span>
+        <span class="mkt-data-label" data-i18n="mkt.d.evLabel">Elektryki — PSGrex</span>
         <span class="mkt-data-number">$6,52B</span>
-        <p class="mkt-data-sub">Prognoza globalnego rynku EV do 2030 r. ($1,33B w 2024). TAM range extenderów: 11,8 mld EUR · 6,75 mln szt. rocznie.</p>
+        <p class="mkt-data-sub" data-i18n="mkt.d.evText">Prognoza globalnego rynku EV do 2030 r. ($1,33B w 2024). TAM range extenderów: 11,8 mld EUR · 6,75 mln szt. rocznie.</p>
         <span class="mkt-data-cagr">↑ 32,5%</span>
-        <span class="mkt-data-cagr-l">CAGR 2024–2030 · źródło: Grand View Research</span>
+        <span class="mkt-data-cagr-l" data-i18n="mkt.d.evCagr">CAGR 2024–2030 · źródło: Grand View Research</span>
       </div>
       <div class="mkt-data-col">
-        <span class="mkt-data-label">Hybrydy — PSE / PSG100</span>
+        <span class="mkt-data-label" data-i18n="mkt.d.hybLabel">Hybrydy — PSE / PSG100</span>
         <span class="mkt-data-number">$478B</span>
-        <p class="mkt-data-sub">Prognoza rynku hybryd do 2030 r. ($261B w 2025). Goldman Sachs: &gt;51% sprzedaży pojazdów zelektryfikowanych w 2030 r.</p>
+        <p class="mkt-data-sub" data-i18n="mkt.d.hybText">Prognoza rynku hybryd do 2030 r. ($261B w 2025). Goldman Sachs: &gt;51% sprzedaży pojazdów zelektryfikowanych w 2030 r.</p>
         <span class="mkt-data-cagr">↑ 12,8%</span>
-        <span class="mkt-data-cagr-l">CAGR 2025–2030 · źródło: Mordor Intelligence</span>
+        <span class="mkt-data-cagr-l" data-i18n="mkt.d.hybCagr">CAGR 2025–2030 · źródło: Mordor Intelligence</span>
       </div>
       <div class="mkt-data-col">
-        <span class="mkt-data-label">Spalinowe — AKS / AKS-P</span>
+        <span class="mkt-data-label" data-i18n="mkt.d.iceLabel">Spalinowe — AKS / AKS-P</span>
         <span class="mkt-data-number">1,4B</span>
-        <p class="mkt-data-sub">Pojazdów spalinowych na świecie dziś. Drop-in modification bez wymiany silnika — natychmiastowy rynek globalny.</p>
+        <p class="mkt-data-sub" data-i18n="mkt.d.iceText">Pojazdów spalinowych na świecie dziś. Drop-in modification bez wymiany silnika — natychmiastowy rynek globalny.</p>
         <span class="mkt-data-cagr" style="color:var(--gold);">Drop-in</span>
-        <span class="mkt-data-cagr-l">Bez wymiany silnika · Rynek dostępny natychmiast</span>
+        <span class="mkt-data-cagr-l" data-i18n="mkt.d.iceCagr">Bez wymiany silnika · Rynek dostępny natychmiast</span>
       </div>
     </div>
   </div>
@@ -1708,14 +1708,14 @@
   <div id="marketChart" style="margin-top:2px;border:1px solid rgba(255,255,255,0.07);padding:48px 48px 40px;background:#08080F;">
     <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:40px;flex-wrap:wrap;gap:20px;">
       <div>
-        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;color:var(--neon);margin-bottom:10px;">// PROGNOZA PRODUKCJI POJAZDÓW · MLN SZT./ROK</div>
-        <div style="font-family:'Bebas Neue',sans-serif;font-size:32px;letter-spacing:1px;color:#fff;line-height:1;">TRZY RYNKI. JEDEN SILNIK.</div>
-        <div style="font-size:13px;color:var(--muted);margin-top:6px;">Źródła: Goldman Sachs · IEA · Mordor Intelligence · szacunki własne</div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:3px;color:var(--neon);margin-bottom:10px;" data-i18n="mkt.chartLabel">// PROGNOZA PRODUKCJI POJAZDÓW · MLN SZT./ROK</div>
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:32px;letter-spacing:1px;color:#fff;line-height:1;" data-i18n="mkt.chartTitle">TRZY RYNKI. JEDEN SILNIK.</div>
+        <div style="font-size:13px;color:var(--muted);margin-top:6px;" data-i18n="mkt.chartSources">Źródła: Goldman Sachs · IEA · Mordor Intelligence · szacunki własne</div>
       </div>
       <div style="display:flex;gap:24px;align-items:center;flex-wrap:wrap;">
-        <div style="display:flex;align-items:center;gap:8px;"><div style="width:12px;height:12px;border-radius:2px;background:#00D4FF;"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);">ELEKTRYKI (PSGrex)</span></div>
-        <div style="display:flex;align-items:center;gap:8px;"><div style="width:12px;height:12px;border-radius:2px;background:#F5A623;"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);">HYBRYDY (PSE/PSG100)</span></div>
-        <div style="display:flex;align-items:center;gap:8px;"><div style="width:12px;height:12px;border-radius:2px;background:#4A5268;"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);">SPALINOWE (AKS)</span></div>
+        <div style="display:flex;align-items:center;gap:8px;"><div style="width:12px;height:12px;border-radius:2px;background:#00D4FF;"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);" data-i18n="mkt.legend.ev">ELEKTRYKI (PSGrex)</span></div>
+        <div style="display:flex;align-items:center;gap:8px;"><div style="width:12px;height:12px;border-radius:2px;background:#F5A623;"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);" data-i18n="mkt.legend.hyb">HYBRYDY (PSE/PSG100)</span></div>
+        <div style="display:flex;align-items:center;gap:8px;"><div style="width:12px;height:12px;border-radius:2px;background:#4A5268;"></div><span style="font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--muted);" data-i18n="mkt.legend.ice">SPALINOWE (AKS)</span></div>
       </div>
     </div>
     <canvas id="prodChart" style="width:100%;display:block;" height="320"></canvas>
@@ -1724,22 +1724,22 @@
       <div style="background:rgba(0,212,255,0.05);border:1px solid rgba(0,212,255,0.15);padding:18px 24px;display:flex;align-items:center;gap:14px;">
         <span style="font-size:24px;">⚡</span>
         <div>
-          <div style="font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:1px;color:var(--neon);">PSGrex — Range Extender</div>
-          <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:2px;">+200 km zasięgu · &lt;10 kg · &lt;€1 750</div>
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:1px;color:var(--neon);" data-i18n="mkt.b.evTitle">PSGrex — Range Extender</div>
+          <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:2px;" data-i18n="mkt.b.evSub">+200 km zasięgu · &lt;10 kg · &lt;€1 750</div>
         </div>
       </div>
       <div style="background:rgba(245,166,35,0.05);border:1px solid rgba(245,166,35,0.15);padding:18px 24px;display:flex;align-items:center;gap:14px;">
         <span style="font-size:24px;">🔄</span>
         <div>
-          <div style="font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:1px;color:var(--gold);">PSE / PSG100 — Elektrownia</div>
-          <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:2px;">Hybryd szeregowy · &lt;65g CO₂/km · norma UE 2030</div>
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:1px;color:var(--gold);" data-i18n="mkt.b.hybTitle">PSE / PSG100 — Elektrownia</div>
+          <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:2px;" data-i18n="mkt.b.hybSub">Hybryd szeregowy · &lt;65g CO₂/km · norma UE 2030</div>
         </div>
       </div>
       <div style="background:rgba(74,82,104,0.1);border:1px solid rgba(74,82,104,0.25);padding:18px 24px;display:flex;align-items:center;gap:14px;">
         <span style="font-size:24px;">🔧</span>
         <div>
-          <div style="font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:1px;color:#8C95AA;">AKS / AKS-P — Drop-in</div>
-          <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:2px;">1,3 mld pojazdów · -2l/100km · bez wymiany silnika</div>
+          <div style="font-family:'Bebas Neue',sans-serif;font-size:16px;letter-spacing:1px;color:#8C95AA;" data-i18n="mkt.b.iceTitle">AKS / AKS-P — Drop-in</div>
+          <div style="font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--muted);margin-top:2px;" data-i18n="mkt.b.iceSub">1,3 mld pojazdów · -2l/100km · bez wymiany silnika</div>
         </div>
       </div>
     </div>
@@ -1747,28 +1747,28 @@
 
   <!-- TABELA KONKURENCJI -->
   <div class="comp-wrap">
-    <div class="comp-title">RCPM vs Konkurencja</div>
+    <div class="comp-title" data-i18n="comp.title">RCPM vs Konkurencja</div>
     <table class="comp-table">
       <thead>
         <tr>
-          <th>Producent</th><th>Produkt</th><th>Masa</th><th>Cena</th><th>Sprawność</th><th>Status</th>
+          <th data-i18n="comp.th.producer">Producent</th><th data-i18n="comp.th.product">Produkt</th><th data-i18n="comp.th.mass">Masa</th><th data-i18n="comp.th.price">Cena</th><th data-i18n="comp.th.eff">Sprawność</th><th data-i18n="comp.th.status">Status</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td class="comp-name" style="color:var(--muted);">BMW</td>
           <td>i3 REX (Range Extender)</td>
-          <td class="c-bad">120 kg</td><td class="c-bad">€4 500</td><td class="c-bad">niska</td><td class="c-bad">❌ Wycofany</td>
+          <td class="c-bad">120 kg</td><td class="c-bad">€4 500</td><td class="c-bad" data-i18n="comp.bmw.eff">niska</td><td class="c-bad" data-i18n="comp.bmw.status">❌ Wycofany</td>
         </tr>
         <tr>
           <td class="comp-name" style="color:var(--muted);">Mazda</td>
           <td>MX-30 R-EV Wankel</td>
-          <td class="c-ok">~80 kg</td><td class="c-ok">—</td><td class="c-bad">~25%</td><td class="c-ok">⚠ Prototyp</td>
+          <td class="c-ok">~80 kg</td><td class="c-ok">—</td><td class="c-bad">~25%</td><td class="c-ok" data-i18n="comp.mazda.status">⚠ Prototyp</td>
         </tr>
         <tr class="winner">
           <td class="comp-name" style="color:var(--gold);">RCPM</td>
           <td style="color:var(--neon);font-weight:600;">PSGrex — PowerBee P.S.A.</td>
-          <td class="c-good">&lt;10 kg</td><td class="c-good">&lt;€1 750</td><td class="c-good">&gt;60%</td><td class="c-good">✓ W opracowaniu</td>
+          <td class="c-good">&lt;10 kg</td><td class="c-good">&lt;€1 750</td><td class="c-good">&gt;60%</td><td class="c-good" data-i18n="comp.rcpm.status">✓ W opracowaniu</td>
         </tr>
       </tbody>
     </table>
@@ -1777,7 +1777,7 @@
 
 <!-- ═══════════════════════════════════ 7. KONTAKT ═══════════════════════════════════ -->
 <section id="kontakt">
-  <span class="s-label">// 06 · Kontakt</span>
+  <span class="s-label" data-i18n="kontakt.label">// 06 · Kontakt</span>
   <h2 class="s-title" data-i18n="kontakt.title">ZACZNIJMY<br><span>ROZMOWĘ</span></h2>
   <div class="kontakt-grid">
     <div>
@@ -1808,7 +1808,7 @@
           <div class="kontakt-item-icon">📄</div>
           <div>
             <span class="kontakt-item-label" data-i18n="kontakt.patentLabel">PATENT</span>
-            <div class="kontakt-item-val">PL · DE · KR · IN · do 22.02.2036</div>
+            <div class="kontakt-item-val" data-i18n="kontakt.patentVal">PL · DE · KR · IN · do 22.02.2036</div>
           </div>
         </div>
       </div>
