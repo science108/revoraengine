@@ -229,7 +229,7 @@ pl: {
 
 
   /* ── new i18n keys ── */
-  'gw.status': 'Patent Pending &nbsp;·&nbsp; Ochrona do 2045 &nbsp;·&nbsp; PL · DE · KR · IN',
+  'gw.status': 'Patent Pending &nbsp;·&nbsp; Ochrona do 2045 &nbsp;·&nbsp; RCPM',
   'sh.shLabel': 'Siemens &amp; Halske · Berlin',
   'sh.shDesc': 'Silnik SH.IIIa — obracający się blok cylindrów',
   'sh.effect': '// EFEKT: 8 KG · 19 100 RPM · SPRAWNOŚĆ &gt;60%',
@@ -650,7 +650,7 @@ en: {
 
 
   /* ── new i18n keys ── */
-  'gw.status': 'Patent Pending &nbsp;·&nbsp; Protection until 2045 &nbsp;·&nbsp; PL · DE · KR · IN',
+  'gw.status': 'Patent Pending &nbsp;·&nbsp; Protection until 2045 &nbsp;·&nbsp; RCPM',
   'sh.shLabel': 'Siemens &amp; Halske · Berlin',
   'sh.shDesc': 'SH.IIIa engine — rotating cylinder block',
   'sh.effect': '// RESULT: 8 KG · 19,100 RPM · EFFICIENCY &gt;60%',
@@ -1071,7 +1071,7 @@ es: {
 
 
   /* ── new i18n keys ── */
-  'gw.status': 'Patente pendiente &nbsp;·&nbsp; Protección hasta 2045 &nbsp;·&nbsp; PL · DE · KR · IN',
+  'gw.status': 'Patente pendiente &nbsp;·&nbsp; Protección hasta 2045 &nbsp;·&nbsp; RCPM',
   'sh.shLabel': 'Siemens &amp; Halske · Berlín',
   'sh.shDesc': 'Motor SH.IIIa — bloque de cilindros giratorio',
   'sh.effect': '// RESULTADO: 8 KG · 19.100 RPM · EFICIENCIA &gt;60%',
@@ -1492,7 +1492,7 @@ de: {
 
 
   /* ── new i18n keys ── */
-  'gw.status': 'Patent angemeldet &nbsp;·&nbsp; Schutz bis 2045 &nbsp;·&nbsp; PL · DE · KR · IN',
+  'gw.status': 'Patent angemeldet &nbsp;·&nbsp; Schutz bis 2045 &nbsp;·&nbsp; RCPM',
   'sh.shLabel': 'Siemens &amp; Halske · Berlin',
   'sh.shDesc': 'Motor SH.IIIa — rotierender Zylinderblock',
   'sh.effect': '// ERGEBNIS: 8 KG · 19.100 U/MIN · WIRKUNGSGRAD &gt;60%',
